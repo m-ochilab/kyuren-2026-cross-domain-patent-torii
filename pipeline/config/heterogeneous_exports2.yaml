@@ -1,0 +1,49 @@
+datasets:
+  C0_core:
+    dataset_id: C0
+    role: source_core
+    dataset_version: C0_cleaning_removal_rinse_core_TAC_2015_2024_exports2
+    publication_csv: data/processed_exports2/C0_publication_level.csv
+    family_csv: data/processed_exports2/C0_family_level.csv
+  C1:
+    dataset_id: C1
+    role: source_kao
+    dataset_version: C1_kao_cleaning_removal_rinse_exports2
+    publication_csv: data/processed_exports2/C1_publication_level.csv
+    family_csv: data/processed_exports2/C1_family_level.csv
+  S0:
+    dataset_id: S0
+    role: target_core
+    dataset_version: S0_semiconductor_cleaning_exports2
+    publication_csv: data/processed_exports2/S0_publication_level.csv
+    family_csv: data/processed_exports2/S0_family_level.csv
+  S1_core:
+    dataset_id: S1
+    role: known_positive
+    dataset_version: S1_kao_semiconductor_cleaning_core_TAC_2015_2024_exports2
+    publication_csv: data/processed_exports2/S1_publication_level.csv
+    family_csv: data/processed_exports2/S1_family_level.csv
+
+analysis:
+  source_datasets: [C0_core, C1]
+  target_dataset: S0
+  known_positive_dataset: S1_core
+  top_k: 10
+  candidate_limit: 5000
+  manual_review_limit: 120
+  chunksize: 2000
+  random_seed: 42
+
+paths:
+  output_dir: outputs/heterogeneous_exports2
+  cache_dir: cache/heterogeneous_exports2
+
+embedding:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 128
+  device: auto
+  normalize: true
+
+periods:
+  all_start: 2015
+  all_end: 2024

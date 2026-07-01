@@ -1,0 +1,6 @@
+method_name,description,unet_rank,available
+Baseline1: A0_past frequency,A0過去期間の出現件数降順,2,True
+Baseline2: gap only,rate_A - rate_B の降順,2,True
+Baseline3: full_embedding only,full埋め込みのA0vsB0コサイン類似度順,N/A (no embedding),False
+Baseline4: problem_embedding only,problem埋め込みのA0vsB0コサイン類似度順,N/A (no embedding),False
+Proposed: GapScore,提案手法 GapScore (simple (no embedding)),2,True

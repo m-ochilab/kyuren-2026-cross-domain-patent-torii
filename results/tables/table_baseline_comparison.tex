@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+  \centering
+  \caption{ベースライン比較（U-Netの順位）}
+  \label{tab:baseline}
+  \begin{tabular}{lrrr}
+    \hline
+    method\_name & description & unet\_rank & available \\
+    \hline
+    Baseline1: A0\_past frequency & A0過去期間の出現件数降順 & 1 & True \\
+    Baseline2: gap only & rate\_A - rate\_B の降順 & 1 & True \\
+    Baseline3: full\_embedding only & full埋め込みのA0vsB0コサイン類似度順 & N/A (no embedding) & False \\
+    Baseline4: problem\_embedding only & problem埋め込みのA0vsB0コサイン類似度順 & N/A (no embedding) & False \\
+    Proposed: GapScore & 提案手法 GapScore (simple (no embedding)) & 1 & True \\
+    \hline
+  \end{tabular}
+\end{table}

@@ -1,0 +1,106 @@
+\chapter{結果}
+\chapoverview{本章では，U-Netの医療画像解析から製造欠陥検出への展開に関する予備分析結果を示す．まず，全期間におけるU-Net出現率をPublication numberベースとFamily IDベースで比較する．次に，2015--2018年と2019--2024年の期間別比較を行う．最後に，代表特許の目視確認により，U-Netが単なる語ではなく技術的手段として用いられていることを確認する．}
+
+\section{全期間でのU-Net出現率}
+\tabref{tab:unet_overall}に，全期間におけるU-Net出現率を示す．Publication numberベースでは，医療画像解析分野のU-Net出現率は5.30\%であり，製造欠陥検出分野の0.59\%を大きく上回った．Family IDベースでも，医療画像解析分野のU-Net出現率は6.78\%，製造欠陥検出分野は0.55\%であった．
+
+\begin{table}[htbp]
+  \centering
+  \caption{全期間におけるU-Net出現率}
+  \label{tab:unet_overall}
+  \begin{tabular}{lrrrr}
+    \toprule
+    分野 & 全体Publication & U-Net Publication & Publication率 & Family ID率 \\
+    \midrule
+    医療画像解析 & 15,167 & 804 & 5.30\% & 6.78\% \\
+    製造欠陥検出 & 12,212 & 72 & 0.59\% & 0.55\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+この結果は，医療画像解析分野ではU-Netが相対的に多く出現している一方，製造欠陥検出分野では低出現であることを示している．したがって，U-Netは本研究でいう手法ギャップの主ケースとして扱いやすい．
+
+\section{期間別比較}
+\tabref{tab:unet_period_publication}に，Publication numberベースの期間別比較を示す．2015--2018年では，医療画像解析分野におけるU-Net関連特許は25件であり，出現率は0.99\%であった．一方，製造欠陥検出分野ではU-Net関連特許は0件であった．2019--2024年では，医療画像解析分野で779件，製造欠陥検出分野で72件のU-Net関連特許が確認された．
+
+\begin{table}[htbp]
+  \centering
+  \caption{期間別U-Net出現率（Publication numberベース）}
+  \label{tab:unet_period_publication}
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    期間 & A0 & A1 & 医療率 & B0 & B1 & 製造率 \\
+    \midrule
+    2015--2018 & 2,515 & 25 & 0.99\% & 2,071 & 0 & 0.00\% \\
+    2019--2024 & 12,652 & 779 & 6.16\% & 10,141 & 72 & 0.71\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\figref{fig:unet_period_publication}に，Publication numberベースの期間別U-Net出現率を示す．製造欠陥検出分野では，過去期間である2015--2018年にU-Net関連特許が確認されず，将来評価期間である2019--2024年に出現している．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.82\textwidth]{fig05_unet_period_publication.png}
+  \caption{期間別U-Net出現率（Publication numberベース）}
+  \label{fig:unet_period_publication}
+\end{figure}
+
+\section{年次推移}
+\figref{fig:unet_publication_rate}に，Publication numberベースのU-Net出現率の年次推移を示す．医療画像解析側では2017年以降にU-Net関連特許が確認され，2019年以降に出現率が上昇している．一方，製造欠陥検出側では2015--2018年にU-Net関連特許が確認されず，2019年以降に出現している．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.88\textwidth]{fig04_unet_publication_rate.png}
+  \caption{U-Net出現率の年次推移（Publication numberベース）}
+  \label{fig:unet_publication_rate}
+\end{figure}
+
+この結果は，医療画像解析分野で先行して出現したU-Netが，後年に製造欠陥検出分野でも出現した可能性を示す．ただし，本研究は，この結果をもって技術移転や導入可能性を証明するものではない．本結果は，過去時点で抽出された候補が，後年の対象分野で出現したことを示す後ろ向き評価の材料である．
+
+\section{Family IDベースの確認}
+\tabref{tab:unet_period_family}に，Family IDベースの期間別比較を示す．Family IDベースでも，製造欠陥検出分野のU-Net関連特許は2015--2018年に0件であり，2019--2024年に49件確認された．
+
+\begin{table}[htbp]
+  \centering
+  \caption{期間別U-Net出現率（Family IDベース）}
+  \label{tab:unet_period_family}
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    期間 & A0 Family & A1 Family & 医療率 & B0 Family & B1 Family & 製造率 \\
+    \midrule
+    2015--2018 & 1,128 & 14 & 1.24\% & 1,420 & 0 & 0.00\% \\
+    2019--2024 & 7,385 & 563 & 7.62\% & 7,478 & 49 & 0.66\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\figref{fig:unet_period_family}に，Family IDベースの期間別U-Net出現率を示す．Publication numberベースだけでなくFamily IDベースでも同様の傾向が確認されたことから，同一発明の複数国公開による重複を考慮しても，医療画像解析側で高く，製造欠陥検出側で低いという手法ギャップは維持される．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.82\textwidth]{fig06_unet_period_family.png}
+  \caption{期間別U-Net出現率（Family IDベース）}
+  \label{fig:unet_period_family}
+\end{figure}
+
+\section{代表特許の目視確認}
+A1およびB1から，同一Familyの重複を避けて代表特許を選び，Title，Abstract，Claimsを確認した．確認の結果，医療画像解析側では腫瘍や生物医学画像のセグメンテーションにU-Net系構造が用いられていることを確認した．また，製造欠陥検出側では，管路，鋼材，金属表面などの欠陥セグメンテーションまたは検出にU-Net系構造が用いられていることを確認した．
+
+\begin{table}[htbp]
+  \centering
+  \caption{代表特許の目視確認観点}
+  \label{tab:manual_check}
+  \begin{tabularx}{\textwidth}{p{34mm}X}
+    \toprule
+    確認観点 & 確認内容 \\
+    \midrule
+    技術手段としての利用 & U-Netが単なる語ではなく，画像分割・欠陥検出の構成として使われているか \\
+    対象物 & 医療画像，腫瘍画像，管路，鋼材，金属表面などが確認できるか \\
+    課題文脈 & 高精度な領域分割，欠陥検出，異常領域抽出などの課題が確認できるか \\
+    解決手段文脈 & U-NetまたはU-Net系構造が課題解決の手段として記述されているか \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+この目視確認により，本研究で抽出したU-Net関連特許は，単なる語の一致だけではなく，画像分割や欠陥検出の技術的手段として用いられていることを確認した．

@@ -1,0 +1,3 @@
+domain,is_unet_raw,is_unet_title_abstract,is_unet_claims,is_unet_full_text,is_unet_final,is_unet,is_yolo,is_gan,is_cyclegan,is_transformer,is_attention,is_autoencoder,is_cnn,is_domain_adaptation,is_resnet,is_vgg,is_efficientnet
+A0,1587,1610,3910,4069,1610,1610,286,622,87,1951,6753,572,2785,161,1316,394,164
+B0,309,314,820,834,314,314,978,469,46,1015,5189,1175,1733,59,914,288,117

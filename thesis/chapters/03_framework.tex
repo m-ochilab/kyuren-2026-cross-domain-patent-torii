@@ -1,0 +1,104 @@
+\chapter{提案枠組み}
+\chapoverview{本章では，本研究で用いる課題・解決手段分離型のクロスドメイン技術候補抽出枠組みを説明する．まず，特許文書から抽出する文脈情報を定義する．次に，課題ベクトルと解決手段ベクトルを用いた類似度計算を定式化する．最後に，U-Netを主ケースとする近接解決策型の候補抽出と，過去期間・将来期間を用いた後ろ向き評価の流れを述べる．}
+
+\section{全体フレームワーク}
+本研究では，特許文書を単一の全文ベクトルとして扱うだけでなく，課題文脈と解決手段文脈に分離する．\figref{fig:framework}に，本研究の全体フレームワークを示す．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{fig01_framework.png}
+  \caption{課題・解決手段分離型クロスドメイン技術候補抽出の全体フレームワーク}
+  \label{fig:framework}
+\end{figure}
+
+本研究の中心命題は，課題文脈が近い分野間において，参照分野で使われているが対象分野では低出現または未使用である解決手段を，専門家が確認すべきクロスドメイン技術候補として抽出することである．ここで重要なのは，BERT類似度をもって技術導入可能性を断定しない点である．BERT類似度は，膨大な特許集合から専門家が確認すべき候補を絞り込むためのスクリーニング指標として用いる．
+
+\section{課題文脈と解決手段文脈の定義}
+本研究では，特許文書から以下の文脈情報を抽出する．
+
+\begin{table}[htbp]
+  \centering
+  \caption{特許文書から抽出する文脈情報}
+  \label{tab:contexts}
+  \begin{tabularx}{\textwidth}{p{32mm}X X}
+    \toprule
+    抽出項目 & 内容 & 用途 \\
+    \midrule
+    problem\_context & 従来技術の問題点，解決したい課題，目的，必要性 & 課題ベクトル作成 \\
+    solution\_context & 課題を解決する構成，方法，材料，アルゴリズム，処理手順 & 解決手段ベクトル作成 \\
+    technical\_means & 具体的な技術手法，材料，装置，処理方法 & 候補ラベル化 \\
+    target\_object & 処理・検出・分析の対象 & 対象物の整合確認 \\
+    effect\_context & 精度向上，コスト低減，残渣低減などの効果 & 補助的確認 \\
+    application\_field & 医療画像，製造欠陥検出，半導体洗浄など & 分野確認 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\figref{fig:problem_solution_split}に，課題文脈と解決手段文脈の分離イメージを示す．Claimsは主に解決手段や構成を記述する箇所であり，課題そのものはAbstractやDescriptionの背景・目的部分に出ることが多い．したがって，本研究では「請求項を課題と解決策に分ける」とは表現せず，「Abstract，Description，Claimsを用いて課題文脈と解決手段文脈を抽出する」と表現する．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\textwidth]{fig02_problem_solution_split.png}
+  \caption{課題文脈・解決手段文脈の分離イメージ}
+  \label{fig:problem_solution_split}
+\end{figure}
+
+\section{ベクトル化と類似度}
+各特許文書を$d$とする．本研究では，$d$から抽出した課題文脈を用いて課題ベクトル$p_d$を作成し，解決手段文脈を用いて解決手段ベクトル$s_d$を作成する．全文ベクトル$t_d$は，Title，Abstract，Claimsを結合したテキストから作成し，ベースラインとして用いる．
+
+特許$i$と特許$j$の課題類似度$Sim_p(i,j)$は，\eqnref{eq:problem_similarity}のコサイン類似度で定義する．
+
+\begin{equation}
+Sim_p(i,j)=\frac{p_i \cdot p_j}{\|p_i\|\|p_j\|}
+\label{eq:problem_similarity}
+\end{equation}
+
+同様に，解決手段類似度$Sim_s(i,j)$は，\eqnref{eq:solution_similarity}で定義する．
+
+\begin{equation}
+Sim_s(i,j)=\frac{s_i \cdot s_j}{\|s_i\|\|s_j\|}
+\label{eq:solution_similarity}
+\end{equation}
+
+本研究では，まず課題類似度が高い分野または特許集合を比較対象とする．その上で，参照分野に存在し，対象分野では低出現である技術手法を候補として抽出する．
+
+\section{手法ギャップの定義}
+参照分野を$A$，対象分野を$B$，技術手法を$m$とする．分野$A$における技術手法$m$の出現率を$r_A(m)$，分野$B$における出現率を$r_B(m)$とする．本研究では，$r_A(m)$が相対的に高く，$r_B(m)$が低い状態を手法ギャップと呼ぶ．
+
+\begin{equation}
+Gap(m; A,B)=r_A(m)-r_B(m)
+\label{eq:gap}
+\end{equation}
+
+ただし，単に出現率差が大きいことだけを候補抽出の根拠とはしない．低出現の理由には，未導入，別名での利用，特許文書に現れない実務利用，技術的不適合，コスト制約などがありうるためである．そのため，本研究では，手法ギャップを候補抽出の初期シグナルとして用い，代表特許の目視確認によって技術的手段としての妥当性を確認する．
+
+\section{候補抽出モード}
+課題類似度と解決手段類似度に基づいて，クロスドメイン技術候補は2種類に分けられる．
+
+\begin{table}[htbp]
+  \centering
+  \caption{2種類の候補抽出モード}
+  \label{tab:candidate_modes}
+  \begin{tabularx}{\textwidth}{p{32mm}p{42mm}X}
+    \toprule
+    タイプ & 条件 & 意味 \\
+    \midrule
+    近接解決策型 & 課題類似度が高く，解決手段類似度も高い & 似た課題を似た解決方向で解いている他分野から，対象分野で低出現の具体的技術手法を候補として抽出する．U-Netが典型例である． \\
+    異質解決策型 & 課題類似度が高く，解決手段の方向が異なる & 似た課題に対して異なる解決方向を取る他分野から，新しい発想候補を得る．洗浄・界面制御技術から半導体洗浄への展開が例である． \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+卒論本文では，U-Netを対象とする近接解決策型を主分析とする．花王の洗浄・除去系技術から半導体洗浄への展開は，発明主題レベルの異質解決策型として補助的に扱う．
+
+\section{後ろ向き評価の設計}
+本研究では，2015--2018年を過去期間，2019--2024年を将来評価期間とする．過去期間において，参照分野で出現し，対象分野では低出現または未出現である技術手法を候補として抽出する．その後，将来評価期間において，候補手法が対象分野で出現・増加したかを確認する．\figref{fig:evaluation_design}に評価設計を示す．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\textwidth]{fig03_evaluation_design.png}
+  \caption{過去期間と将来評価期間を用いた後ろ向き評価設計}
+  \label{fig:evaluation_design}
+\end{figure}
+
+この評価は，技術導入可能性を直接証明するものではない．本研究における評価は，提案枠組みが既知のクロスドメイン応用事例を，過去時点のデータから専門家確認候補として抽出できるかを検討するものである．

@@ -1,0 +1,73 @@
+\chapter{参考：クロスドメイン技術候補抽出研究の図表}
+\label{ch:crossdomain}
+
+本章では、参考として、クロスドメイン技術候補抽出に関する研究で生成された図表を示す。この研究は、特許文書から課題文脈と解決手段文脈を分離し、異分野間における技術候補を抽出する手法を提案している。
+
+\section{候補タイプの定義と実験の位置づけ}
+図 \ref{fig:solution_type_quadrant} に、課題文脈類似度と解決手段文脈類似度に基づく候補タイプの概念図を示す。この図では、実験1（近接解決策型）と実験2（異質解決策型）の位置づけが明確に示されている。
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{./figs/solution_type_quadrant.pdf}
+\caption{候補タイプと実験の位置づけ}
+\label{fig:solution_type_quadrant}
+\end{center}
+\end{figure}
+
+\section{提案手法の処理フロー}
+図 \ref{fig:method_pipeline} に、提案手法全体の処理フローを示す。特許データから候補集合の抽出、著者確認評価に至るまでの一連のプロセスが可視化されている。
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{./figs/method_pipeline.pdf}
+\caption{提案手法の全体処理フロー}
+\label{fig:method_pipeline}
+\end{center}
+\end{figure}
+
+\section{実験1：U-Net候補抽出フロー}
+図 \ref{fig:experiment1_pipeline} に、実験1の処理フローを示す。医療画像解析分野から製造欠陥検出分野への U-Net 関連候補抽出のプロセスが示されている。
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{./figs/experiment1_pipeline.pdf}
+\caption{実験1フロー：U-Netを対象とした近接解決策型}
+\label{fig:experiment1_pipeline}
+\end{center}
+\end{figure}
+
+\section{実験2：異質解決策型分析フロー}
+図 \ref{fig:experiment2_pipeline} に、実験2の処理フローを示す。洗浄・除去系技術を対象とした異質解決策型候補抽出のプロセスが可視化されている。
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{./figs/experiment2_pipeline.pdf}
+\caption{実験2フロー：異質解決策型の補助分析}
+\label{fig:experiment2_pipeline}
+\end{center}
+\end{figure}
+
+\section{実験結果}
+表 \ref{tab:dataset_summary} は、実験1で使用されたデータセットのサマリーを示している。医療画像解析分野（A0）と製造欠陥検出分野（B0）におけるデータの過去・将来期間分割と U-Net の登場率が記載されている。
+
+\input{tables/dataset_summary}
+
+表 \ref{tab:experiment1_results} に、実験1の著者確認評価結果を示す。提案手法による候補抽出の有効性が複数の指標で検証されている。
+
+\input{tables/experiment1_results}
+
+表 \ref{tab:experiment1_baseline_comparison} に、提案手法と全文類似上位ベースラインの比較結果を示す。候補タイプ別の評価結果が整理されている。
+
+\input{tables/experiment1_baseline_comparison}
+
+表 \ref{tab:experiment2_label_summary} に、実験2の評価ラベル分布を示す。異質解決策型における候補の解釈可能性が確認されている。
+
+\input{tables/experiment2_label_summary}
+
+表 \ref{tab:experiment2_cluster_summary} に、実験2のクラスタレベル評価結果を示す。各クラスタにおける候補品質が分析されている。
+
+\input{tables/experiment2_cluster_summary}
+
+表 \ref{tab:experiment_comparison} に、実験1と実験2の評価結果の比較を示す。主分析と補助分析の性質の違いが明確に表れている。
+
+\input{tables/experiment1_experiment2_comparison}

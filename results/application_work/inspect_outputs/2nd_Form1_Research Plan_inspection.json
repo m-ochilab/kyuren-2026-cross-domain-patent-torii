@@ -1,0 +1,3584 @@
+{
+  "path": "/Users/h-torii4649/Downloads/公募要領･申請書類フォーマット(第２回用)/2nd_Form1_Research Plan.xlsx",
+  "sheets": [
+    {
+      "title": "Notes) Important Notes for Fill",
+      "target": "xl/worksheets/sheet1.xml",
+      "dimension": "A1:G46",
+      "merged_ranges": [
+        "B46:F46",
+        "E14:F14",
+        "D7:F7",
+        "E17:F17",
+        "C20:D20",
+        "E35:F35",
+        "E20:F20",
+        "C16:D16",
+        "E29:F29",
+        "B42:F42",
+        "E19:F19",
+        "E34:F34",
+        "B38:F38",
+        "E36:F36",
+        "B33:B36",
+        "E32:F32",
+        "D4:F4",
+        "E28:F28",
+        "D3:F3",
+        "D9:F9",
+        "B29:B32",
+        "C22:D22",
+        "D8:F8",
+        "E31:F31",
+        "E30:F30",
+        "C21:D21",
+        "D5:F5",
+        "E15:F15",
+        "C17:D17",
+        "C23:D23",
+        "D10:F10",
+        "E16:F16",
+        "E37:F37",
+        "E22:F22",
+        "C18:D18",
+        "D6:F6",
+        "E21:F21",
+        "C24:D24",
+        "C15:D15",
+        "E24:F24",
+        "E33:F33",
+        "C14:D14",
+        "E23:F23",
+        "E18:F18",
+        "C19:D19"
+      ],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "118",
+          "type": "s",
+          "value": "Important Notes for Completing the Research Plan"
+        },
+        {
+          "cell": "B3",
+          "style": "117",
+          "type": "s",
+          "value": "No"
+        },
+        {
+          "cell": "C3",
+          "style": "170",
+          "type": "s",
+          "value": "Item"
+        },
+        {
+          "cell": "D3",
+          "style": "230",
+          "type": "s",
+          "value": "Notes"
+        },
+        {
+          "cell": "B4",
+          "style": "171",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C4",
+          "style": "168",
+          "type": "s",
+          "value": "Checking Input Content"
+        },
+        {
+          "cell": "D4",
+          "style": "217",
+          "type": "s",
+          "value": "Cells that have not been filled in are displayed in light orange. Before submission, please make sure all required fields (light orange cells) have been completed.\\n*Light orange cells indicate unfilled fields, but not all fields are mandatory. Fields that do not apply to you or that do not require input do not need to be filled in."
+        },
+        {
+          "cell": "B5",
+          "style": "171",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C5",
+          "style": "168",
+          "type": "s",
+          "value": "Checking Character Count Limits"
+        },
+        {
+          "cell": "D5",
+          "style": "217",
+          "type": "s",
+          "value": "For fields with character count limits, always check the character count display and ensure your text is within the specified range.\\nPlease note that exceeding or falling short of the character limit may result in the document being deemed incomplete and \"rejected.\"\\n\\n★ If the upper or lower limit is not met, the character count will be displayed in red."
+        },
+        {
+          "cell": "B6",
+          "style": "171",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C6",
+          "style": "168",
+          "type": "s",
+          "value": "Structure of the Research Plan"
+        },
+        {
+          "cell": "D6",
+          "style": "217",
+          "type": "s",
+          "value": "The structure of the Research Plan is as follows. There are a total of 4 tabs that applicants must fill in.\\n・Notes) Important Notes for Filling Out This Form\\n・Reference) Government-Wide Expense Classification Table\\n・Research Plan_Sheet 1: Basic Information\\n・Research Plan_Sheet 2: Research Objectives, Methods, etc.\\n・Research Plan_Sheet 3: Research Expense Breakdown\\n・Research Plan_Sheet 4: Details of Cost Basis for API / Computational Resources　*Fill in only if applicable"
+        },
+        {
+          "cell": "B7",
+          "style": "171",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C7",
+          "style": "168",
+          "type": "s",
+          "value": "Handling of the Template (Format)"
+        },
+        {
+          "cell": "D7",
+          "style": "217",
+          "type": "s",
+          "value": "Editing of this document beyond the designated input fields is generally restricted. Please do not change the layout or formatting unless absolutely necessary."
+        },
+        {
+          "cell": "B8",
+          "style": "171",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C8",
+          "style": "168",
+          "type": "s",
+          "value": "File Name for the Research Plan"
+        },
+        {
+          "cell": "D8",
+          "style": "217",
+          "type": "s",
+          "value": "In the file name \"Form1_2nd_ResearchPlan_e-RadInstitutionCode_RomanizedName,\" please update \"e-RadInstitutionCode\" and \"RomanizedName\" with your own information. Enter the e-Rad institution code using half-width numerals, and your name in romanized half-width letters in the order of family name followed by given name, with a half-width space between them."
+        },
+        {
+          "cell": "B9",
+          "style": "142",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C9",
+          "style": "141",
+          "type": "s",
+          "value": "Research Expenses"
+        },
+        {
+          "cell": "D9",
+          "style": "232",
+          "type": "s",
+          "value": "In the \"Research Expenses\" section on Sheet 1, if the total research budget is less than 100,000 yen or exceeds 5,000,000 yen, an error will be displayed in red.\\nWhen entering amounts, always use half-width numerals and round down any amount less than 1,000 yen."
+        },
+        {
+          "cell": "B10",
+          "style": "5",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C10",
+          "style": "169",
+          "type": "s",
+          "value": "Other"
+        },
+        {
+          "cell": "D10",
+          "style": "220",
+          "type": "s",
+          "value": "For the definitions of research areas and use cases, please refer to the information provided below and select the most appropriate option for your research.\\nFor research expenses, please refer to the \"About the Government-Wide Expense Classification Table\" section below and the separate tab \"Reference) Government-Wide Expense Classification Table.\""
+        },
+        {
+          "cell": "A12",
+          "style": "118",
+          "type": "s",
+          "value": "[Reference: Research Area Classification]"
+        },
+        {
+          "cell": "B14",
+          "style": "119",
+          "type": "s",
+          "value": "Research Area"
+        },
+        {
+          "cell": "C14",
+          "style": "226",
+          "type": "s",
+          "value": "Definition"
+        },
+        {
+          "cell": "E14",
+          "style": "242",
+          "type": "s",
+          "value": "Research Fields (Examples)"
+        },
+        {
+          "cell": "B15",
+          "style": "120",
+          "type": "s",
+          "value": "Clinical Science"
+        },
+        {
+          "cell": "C15",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that generates and verifies knowledge targeting patients, populations, and healthcare settings with the aim of diagnosing, treating, preventing, and improving the prognosis of diseases."
+        },
+        {
+          "cell": "E15",
+          "style": "216",
+          "type": "s",
+          "value": "Internal medicine, organ-specific internal medicine / bioinformation medicine, surgery, functional and sensory surgery, oral science, social medicine / nursing, sports science, veterinary medicine, etc."
+        },
+        {
+          "cell": "B16",
+          "style": "120",
+          "type": "s",
+          "value": "Life Sciences / Pharmacy"
+        },
+        {
+          "cell": "C16",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that elucidates life phenomena at the molecular, cellular, and individual levels and extends to drug discovery, pharmacology, and biological regulation."
+        },
+        {
+          "cell": "E16",
+          "style": "216",
+          "type": "s",
+          "value": "Cell biology, evolutionary biology, neuroscience, pharmacy, biostructure and function, pathology, oncology, brain science, etc."
+        },
+        {
+          "cell": "B17",
+          "style": "120",
+          "type": "s",
+          "value": "Chemistry"
+        },
+        {
+          "cell": "C17",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that deals with the structure, reactions, properties, synthesis, and transformation of atoms, molecules, and materials to create new substances and functions."
+        },
+        {
+          "cell": "E17",
+          "style": "216",
+          "type": "s",
+          "value": "Physical chemistry, organic chemistry, inorganic / complex / analytical chemistry, polymer and organic materials, inorganic materials and energy chemistry, biomolecular chemistry, etc."
+        },
+        {
+          "cell": "B18",
+          "style": "120",
+          "type": "s",
+          "value": "Mechanical / Infrastructure / Energy Engineering"
+        },
+        {
+          "cell": "C18",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that performs design, control, and implementation for machinery, structures, fluid / thermal systems, mobile bodies, architecture / civil engineering, social infrastructure, safety / disaster prevention, and energy systems."
+        },
+        {
+          "cell": "E18",
+          "style": "216",
+          "type": "s",
+          "value": "Materials mechanics / design / production engineering, fluid and thermal engineering, mechanical dynamics / robotics, civil engineering, architecture, aerospace / marine engineering, social systems / disaster prevention engineering, energy and resource engineering, etc."
+        },
+        {
+          "cell": "B19",
+          "style": "120",
+          "type": "s",
+          "value": "Materials / Process / Applied Biomedical Engineering"
+        },
+        {
+          "cell": "C19",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that advances functional creation and applied implementation targeting materials, interfaces, processes, nanoscale structures, applied physical properties, and biocompatibility technologies."
+        },
+        {
+          "cell": "E19",
+          "style": "216",
+          "type": "s",
+          "value": "Materials engineering, chemical engineering, nano / micro science, applied physical properties, human biomedical engineering, etc."
+        },
+        {
+          "cell": "B20",
+          "style": "120",
+          "type": "s",
+          "value": "Electrical Engineering / Electronic Engineering / Information Science / Computer Science"
+        },
+        {
+          "cell": "C20",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that covers electrical, electronic, optical, control, measurement, communications, and device systems, as well as computation, software, data, networks, and intelligent information processing."
+        },
+        {
+          "cell": "E20",
+          "style": "216",
+          "type": "s",
+          "value": "Electrical and electronic engineering, applied physics and device engineering, information science and engineering, human information and applied information, etc."
+        },
+        {
+          "cell": "B21",
+          "style": "120",
+          "type": "s",
+          "value": "Mathematics / Physics / Earth Sciences"
+        },
+        {
+          "cell": "C21",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that elucidates mathematical structures, laws of nature, and the fundamental principles of Earth and space systems through theory, observation, experiment, and analysis."
+        },
+        {
+          "cell": "E21",
+          "style": "216",
+          "type": "s",
+          "value": "Algebra / geometry, analysis / applied mathematics, condensed matter physics, astrophysics, astronomy, earth and planetary science, etc."
+        },
+        {
+          "cell": "B22",
+          "style": "120",
+          "type": "s",
+          "value": "Agriculture / Environmental Science / Ecology"
+        },
+        {
+          "cell": "C22",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that deals with biological resources, agricultural production, food, environmental conservation, and ecosystem maintenance."
+        },
+        {
+          "cell": "E22",
+          "style": "216",
+          "type": "s",
+          "value": "Agricultural chemistry, production and environmental agriculture, forest and aquatic science, agricultural engineering and economics, environmental assessment and conservation, etc."
+        },
+        {
+          "cell": "B23",
+          "style": "120",
+          "type": "s",
+          "value": "Social Sciences"
+        },
+        {
+          "cell": "C23",
+          "style": "217",
+          "type": "s",
+          "value": "A research area that theoretically and empirically analyzes human behavior, institutions, organizations, markets, policies, and social structures."
+        },
+        {
+          "cell": "E23",
+          "style": "216",
+          "type": "s",
+          "value": "Cultural anthropology, legal systems, political science, economics and business administration, sociology, education, psychology, etc."
+        },
+        {
+          "cell": "B24",
+          "style": "121",
+          "type": "s",
+          "value": "Arts / Humanities"
+        },
+        {
+          "cell": "C24",
+          "style": "220",
+          "type": "s",
+          "value": "A research area that explores culture, history, thought, language, expression, and value formation through interpretation, criticism, and historical source analysis."
+        },
+        {
+          "cell": "E24",
+          "style": "222",
+          "type": "s",
+          "value": "Philosophy, art studies, literature and linguistics, history, archaeology, etc."
+        },
+        {
+          "cell": "A26",
+          "style": "118",
+          "type": "s",
+          "value": "[Reference: Use Case Classification]"
+        },
+        {
+          "cell": "B28",
+          "style": "122",
+          "type": "s",
+          "value": "Development / Use"
+        },
+        {
+          "cell": "C28",
+          "style": "123",
+          "type": "s",
+          "value": "Use Case Classification"
+        },
+        {
+          "cell": "D28",
+          "style": "123",
+          "type": "s",
+          "value": "Definition / Criteria"
+        },
+        {
+          "cell": "E28",
+          "style": "228",
+          "type": "s",
+          "value": "Specific Examples"
+        },
+        {
+          "cell": "B29",
+          "style": "233",
+          "type": "s",
+          "value": "Development"
+        },
+        {
+          "cell": "C29",
+          "style": "125",
+          "type": "s",
+          "value": "Training Dataset Construction"
+        },
+        {
+          "cell": "D29",
+          "style": "125",
+          "type": "s",
+          "value": "Applicable when the primary activity is data collection or processing intended for future use in AI / deep learning (including data collection through experiments, fieldwork, etc.)"
+        },
+        {
+          "cell": "E29",
+          "style": "243",
+          "type": "s",
+          "value": "・Making historical documents \"AI-ready\" through digitization, preprocessing, and metadata curation\\n・Preparing training datasets for developing machine learning potentials in chemistry"
+        },
+        {
+          "cell": "C30",
+          "style": "126",
+          "type": "s",
+          "value": "Adaptation of Existing Models"
+        },
+        {
+          "cell": "D30",
+          "style": "126",
+          "type": "s",
+          "value": "Applicable when the primary activity is making an existing foundation model more lightweight, faster, or optimized through post-training or fine-tuning (Note: activities such as building RAG without training fall under \"Use,\" not this category)"
+        },
+        {
+          "cell": "E30",
+          "style": "236",
+          "type": "s",
+          "value": "・Fine-tuning a foundation model to develop a model that extracts, structures, and organizes semiconductor material information from diverse scientific documents\\n・Developing a small, cost-effective and easy-to-operate model based on a foundation LLM"
+        },
+        {
+          "cell": "C31",
+          "style": "126",
+          "type": "s",
+          "value": "AI Model Development"
+        },
+        {
+          "cell": "D31",
+          "style": "126",
+          "type": "s",
+          "value": "Applicable when all stages of the cycle—data collection, pre-training, fine-tuning, validation, and evaluation—are performed by the researcher themselves (includes not only large language models but also research utilizing deep learning)"
+        },
+        {
+          "cell": "E31",
+          "style": "236",
+          "type": "s",
+          "value": "・Developing a small AI model that can schedule and automate biological experiments\\n・Developing AI simulations for physics systems incorporating fluid equations\\n・Developing a deep learning model for jet classification in particle acceleration experiments"
+        },
+        {
+          "cell": "C32",
+          "style": "127",
+          "type": "s",
+          "value": "Evaluation of Existing Models"
+        },
+        {
+          "cell": "D32",
+          "style": "127",
+          "type": "s",
+          "value": "Applicable to research whose primary purpose is \"validation, evaluation, and improvement\" of existing models. Research aimed at understanding model mechanisms (e.g., probing) for the purpose of AI improvement also falls under this category."
+        },
+        {
+          "cell": "E32",
+          "style": "247",
+          "type": "s",
+          "value": "・Analyzing attention mechanisms to extract insights for developing AI with fewer hallucinations\\n・Research aimed at improving the reliability of \"LLM-as-a-judge\""
+        },
+        {
+          "cell": "B33",
+          "style": "249",
+          "type": "s",
+          "value": "Use"
+        },
+        {
+          "cell": "C33",
+          "style": "128",
+          "type": "s",
+          "value": "Experimental Automation / Autonomization"
+        },
+        {
+          "cell": "D33",
+          "style": "129",
+          "type": "s",
+          "value": "Applicable when physical laboratory equipment, robots, or machines are connected (Note: if activity during the project period is limited to code development and does not involve actual equipment, select the most appropriate category from the other classifications instead)"
+        },
+        {
+          "cell": "E33",
+          "style": "224",
+          "type": "s",
+          "value": "・Developing an AI camera that connects with cameras to detect signs of crop disease\\n・Developing AI that connects with robotic arms to autonomously carry out small-scale experiments"
+        },
+        {
+          "cell": "C34",
+          "style": "126",
+          "type": "s",
+          "value": "Simulation / Digital Twin"
+        },
+        {
+          "cell": "D34",
+          "style": "126",
+          "type": "s",
+          "value": "Applicable to research that primarily uses existing AI (*) and intends to replace processes currently requiring actual experiments or observations with simulations or digital twins (research involving from-scratch model development falls under \"AI Model Development\")"
+        },
+        {
+          "cell": "E34",
+          "style": "236",
+          "type": "s",
+          "value": "・Simulating the process of language acquisition by treating LLMs as humans\\n・Simulating \"society\" using AI agents\\n・Developing a prototype clinical trial using virtual organs"
+        },
+        {
+          "cell": "C35",
+          "style": "126",
+          "type": "s",
+          "value": "Discovery / Design Support"
+        },
+        {
+          "cell": "D35",
+          "style": "126",
+          "type": "s",
+          "value": "Applicable when the primary activity uses existing AI (*) to streamline and autonomize pre-experimental processes—from hypothesis generation to experimental planning—before \"actual experiments or analyses\""
+        },
+        {
+          "cell": "E35",
+          "style": "236",
+          "type": "s",
+          "value": "・Using existing AI to develop a system that proposes research next-step hypotheses and industry-academia collaboration plans based on industry trends\\n・Using AI to conduct promising material exploration at the pre-experimental stage in materials design"
+        },
+        {
+          "cell": "C36",
+          "style": "127",
+          "type": "s",
+          "value": "Advanced Data Analysis / Modeling"
+        },
+        {
+          "cell": "D36",
+          "style": "127",
+          "type": "s",
+          "value": "Broadly applicable to research that primarily uses existing AI (*) to advance data analysis and prediction (excluding those falling under Simulation / Digital Twin) (Note: research in which the researcher themselves build a complete model falls under \"AI Model Development\")"
+        },
+        {
+          "cell": "E36",
+          "style": "247",
+          "type": "s",
+          "value": "・Using AI to analyze social media data in real time and visualize social conditions\\n・Using AI to estimate parameters needed for a long-term earthquake prediction model"
+        },
+        {
+          "cell": "B37",
+          "style": "124",
+          "type": "s",
+          "value": "Other"
+        },
+        {
+          "cell": "C37",
+          "style": "7",
+          "type": "s",
+          "value": "Other"
+        },
+        {
+          "cell": "D37",
+          "style": "7",
+          "type": "s",
+          "value": "Use cases or research that do not fit into the above categories, such as primarily theoretical research, research close to \"Science for AI,\" or meta-science related to AI, etc. (*Please select from the above categories whenever possible)"
+        },
+        {
+          "cell": "E37",
+          "style": "214",
+          "type": "s",
+          "value": "・Analyzing the social impact of introducing AI into scientific research itself\\n・Theoretically exploring new AI architectures using knowledge from non-equilibrium statistical mechanics"
+        },
+        {
+          "cell": "B38",
+          "style": "244",
+          "type": "s",
+          "value": "(*) Using existing AI: Refers to using existing models such as ChatGPT via service or API, or using SaaS / AutoML-type services, etc."
+        },
+        {
+          "cell": "A40",
+          "style": "118",
+          "type": "s",
+          "value": "[About the Government-Wide Expense Classification Table]"
+        },
+        {
+          "cell": "B42",
+          "style": "239",
+          "type": "s",
+          "value": "1. General Provisions\\n(1) The Government-Wide Expense Classification Table (hereinafter referred to as \"the Table\") is used in common across all competitive research funding programs. The following confirms the interpretation and operation thereof.\\n(2) Each program shall establish its expense category structure based on the Table, clearly indicating the handling of each expense.\\n\\n2. Setting Expense Categories\\n(1) Each program shall use the category names listed in the Table.\\n(2) Expense ty"
+        },
+        {
+          "cell": "A44",
+          "style": "118",
+          "type": "s",
+          "value": "[Guidelines for Describing Cost Details (API Costs / Computational Resource Costs)]"
+        },
+        {
+          "cell": "B46",
+          "style": "239",
+          "type": "s",
+          "value": "In this section, please organize and describe the breakdown of costs associated with AI usage by item. If there are multiple purposes or multiple types of GPUs being used, please divide entries by purpose or GPU type.\\n\\n<Content to include for each item: API Costs>\\nFor pay-as-you-go API costs, please refer to the examples below. Even for non-pay-as-you-go usage, describe API usage for data retrieval, queries, or integration as appropriate.\\n■ Processing Target: Describe the data to be processe"
+        }
+      ]
+    },
+    {
+      "title": "Reference) Government-Wide Expe",
+      "target": "xl/worksheets/sheet2.xml",
+      "dimension": "A2:F21",
+      "merged_ranges": [
+        "A2:F2",
+        "A19:C19",
+        "B8:B9",
+        "A21:C21",
+        "A6:A17",
+        "B6:B7",
+        "E3:F3",
+        "B11:B17"
+      ],
+      "non_empty": [
+        {
+          "cell": "A2",
+          "style": "252",
+          "type": "s",
+          "value": "Government-Wide Expense Classification Table"
+        },
+        {
+          "cell": "E3",
+          "style": "262",
+          "type": "s",
+          "value": "Program / Project Name:\\nSupporting Pioneering Research through AI for 1,000 Discovery challenges（SPReAD）"
+        },
+        {
+          "cell": "A5",
+          "style": "13",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "B5",
+          "style": "162",
+          "type": "s",
+          "value": "Major Category"
+        },
+        {
+          "cell": "C5",
+          "style": "163",
+          "type": "s",
+          "value": "Sub-Category"
+        },
+        {
+          "cell": "D5",
+          "style": "14",
+          "type": "s",
+          "value": "Specific Expenditure Examples for Sub-Categories"
+        },
+        {
+          "cell": "E5",
+          "style": "15",
+          "type": "s",
+          "value": "Sub-Category Settings /\\nHandling, etc."
+        },
+        {
+          "cell": "F5",
+          "style": "15",
+          "type": "s",
+          "value": "Special Notes"
+        },
+        {
+          "cell": "A6",
+          "style": "258",
+          "type": "s",
+          "value": "Direct Costs"
+        },
+        {
+          "cell": "B6",
+          "style": "261",
+          "type": "s",
+          "value": "Equipment and Supplies"
+        },
+        {
+          "cell": "C6",
+          "style": "164",
+          "type": "s",
+          "value": "Equipment and Fixtures"
+        },
+        {
+          "cell": "D6",
+          "style": "17",
+          "type": "s",
+          "value": "Costs required for the purchase, manufacture, or installation of machinery, tools, equipment, and other items necessary for the implementation of the project. Includes renovation of equipment (capital expenditures primarily aimed at enhancing functions or increasing durability) and software (integrated into and functioning as part of machinery or equipment)."
+        },
+        {
+          "cell": "E6",
+          "style": "18",
+          "type": "s",
+          "value": "When acquiring computational resources as physical assets (e.g., purchasing GPU-equipped devices), classify them under \"Equipment and Fixtures\" and also record them under \"Computational Resource Costs (including Cloud GPU)\" on Research Plan_Sheet 4."
+        },
+        {
+          "cell": "F6",
+          "style": "18",
+          "type": "s",
+          "value": "GPU-equipped servers, workstations, research storage devices, and other similar computing equipment acquired as physical assets that should be managed as fixtures shall be classified under \"Equipment and Fixtures.\""
+        },
+        {
+          "cell": "C7",
+          "style": "30",
+          "type": "s",
+          "value": "Consumable Supplies"
+        },
+        {
+          "cell": "D7",
+          "style": "19",
+          "type": "s",
+          "value": "Costs for purchasing materials, parts, consumables, and other items directly required for project implementation, including examples such as:\\n  ・Software (including version upgrades)\\n  ・Books and publications (including annual subscription fees)\\n  ・PC peripherals, CD-ROMs, DVD-ROMs, etc.\\n  ・Laboratory animals, reagents, reagent kits, laboratory instruments\\n  ・Prototypes\\n  etc."
+        },
+        {
+          "cell": "E7",
+          "style": "20",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F7",
+          "style": "21",
+          "type": "s",
+          "value": "Inexpensive peripherals, recording media, replacement parts, and other computing equipment acquired as physical assets that should be managed as consumables shall be classified under \"Consumable Supplies.\""
+        },
+        {
+          "cell": "B8",
+          "style": "255",
+          "type": "s",
+          "value": "Personnel Costs\\n/ Honoraria"
+        },
+        {
+          "cell": "C8",
+          "style": "165",
+          "type": "s",
+          "value": "Personnel Costs"
+        },
+        {
+          "cell": "D8",
+          "style": "22",
+          "type": "s",
+          "value": "Personnel costs for researchers who directly engage in and primarily lead the project:\\n  ・Personnel costs (including paid leave) of the principal investigator themselves, statutory welfare expenses, commuting allowances, housing allowances, dependent allowances, location allowances, retirement allowances for contracted research, etc.\\n  ・Personnel costs (including paid leave) of postdocs and other researchers directly employed by the institution, statutory welfare expenses, commuting allowances"
+        },
+        {
+          "cell": "E8",
+          "style": "23",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F8",
+          "style": "24",
+          "type": "s",
+          "value": "Personnel cost expenditures are not eligible under this program."
+        },
+        {
+          "cell": "C9",
+          "style": "30",
+          "type": "s",
+          "value": "Honoraria"
+        },
+        {
+          "cell": "D9",
+          "style": "25",
+          "type": "s",
+          "value": "Costs for providing knowledge, information, and technical expertise necessary for project implementation:\\n  ・Honoraria for attendance at research steering committee and other external committee meetings\\n  ・Honoraria for lectures and talks\\n  ・Honoraria for services utilizing individual specialized skills (lectures, technical guidance, manuscript writing, peer review, proofreading (foreign language, etc.))\\n  ・Honoraria for data and document organization services\\n  ・Honoraria for interpretatio"
+        },
+        {
+          "cell": "E9",
+          "style": "26",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F9",
+          "style": "26",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "B10",
+          "style": "166",
+          "type": "s",
+          "value": "Travel Expenses"
+        },
+        {
+          "cell": "C10",
+          "style": "30",
+          "type": "s",
+          "value": "Travel Expenses"
+        },
+        {
+          "cell": "D10",
+          "style": "27",
+          "type": "s",
+          "value": "The following costs related to travel:\\n① Costs for domestic and international business trips or travel by researchers and assistants (including undergraduate and graduate students) for project implementation (transportation, accommodation, daily allowances, travel incidentals). Includes transportation, accommodation, daily allowances, and travel incidentals for attending academic conferences.\\n② Costs for domestic and international business trips or travel by project collaborators (other than ①"
+        },
+        {
+          "cell": "E10",
+          "style": "28",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F10",
+          "style": "29",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "B11",
+          "style": "263",
+          "type": "s",
+          "value": "Other"
+        },
+        {
+          "cell": "C11",
+          "style": "30",
+          "type": "s",
+          "value": "Outsourcing Costs"
+        },
+        {
+          "cell": "D11",
+          "style": "25",
+          "type": "s",
+          "value": "The following costs related to outsourcing:\\nCosts for outsourcing maintenance of equipment directly necessary for the project, data analysis, etc.:\\n  ・Service contracts for operation, maintenance, and repair of machinery and equipment (including routine legal inspections, periodic inspections, and daily maintenance to preserve functionality and restore original condition of equipment purchased under this project)\\n  ・Service contracts for raising laboratory animals, design (designed to applica"
+        },
+        {
+          "cell": "E11",
+          "style": "23",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F11",
+          "style": "31",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "C12",
+          "style": "30",
+          "type": "s",
+          "value": "Printing and Binding Costs"
+        },
+        {
+          "cell": "D12",
+          "style": "19",
+          "type": "s",
+          "value": "Costs for printing and binding materials related to the project:\\n  ・Printing costs for creating documents necessary for research activities, such as flyers, posters, photographs, and drawing copies\\n  etc."
+        },
+        {
+          "cell": "E12",
+          "style": "31",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F12",
+          "style": "32",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "C13",
+          "style": "30",
+          "type": "s",
+          "value": "Meeting Expenses"
+        },
+        {
+          "cell": "D13",
+          "style": "19",
+          "type": "s",
+          "value": "Costs for holding meetings, symposiums, seminars, etc. directly necessary for project implementation:\\n  ・Costs for holding research steering committees and other committee meetings\\n  ・Venue rental fees\\n  ・Interpretation fees for international conferences\\n  ・Food and beverage costs for meetings and receptions (excluding alcoholic beverages)\\n  etc."
+        },
+        {
+          "cell": "E13",
+          "style": "31",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F13",
+          "style": "32",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "C14",
+          "style": "30",
+          "type": "s",
+          "value": "Communication and Transportation Costs"
+        },
+        {
+          "cell": "D14",
+          "style": "19",
+          "type": "s",
+          "value": "Communication and telephone costs for transporting items and transmitting/receiving data directly necessary for project implementation:\\n  ・Telephone and fax charges\\n  ・Internet usage fees\\n  ・Courier service fees\\n  ・Postal fees\\n  etc."
+        },
+        {
+          "cell": "E14",
+          "style": "31",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "C15",
+          "style": "167",
+          "type": "s",
+          "value": "Utilities (Electricity, Gas, Water)"
+        },
+        {
+          "cell": "D15",
+          "style": "34",
+          "type": "s",
+          "value": "Costs for electricity, gas, water, and other utilities required to operate machinery and equipment used for the project."
+        },
+        {
+          "cell": "E15",
+          "style": "31",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F15",
+          "style": "35",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "C16",
+          "style": "36",
+          "type": "s",
+          "value": "Other\\n(Miscellaneous Expenses)"
+        },
+        {
+          "cell": "D16",
+          "style": "19",
+          "type": "s",
+          "value": "Costs directly necessary for project implementation beyond the above categories:\\n  ・Costs for renting/leasing/using equipment and other items (rental, lease, rental), storage fees, land and building rental fees, field rental fees\\n  ・Usage fees for facilities and equipment within research institutions\\n  ・Conference participation fees (including lunch and banquet fees inseparable from conference participation fees; travel costs for attending conferences are classified under \"Travel Expenses\")\\n"
+        },
+        {
+          "cell": "E16",
+          "style": "148",
+          "type": "s",
+          "value": "Costs required for API usage (e.g., pay-as-you-go API fees, fees for AI models and other analytical APIs, fees for APIs used for data retrieval/queries/integration, fees for accessing databases or external platforms via API, etc.) shall be classified under \"API Costs\" on Research Plan_Sheet 4.\\nAdditionally, costs related to procurement/use of computational resources (e.g., commercial cloud service fees, lease/rental fees for GPU-equipped devices, usage fees for HPC or GPU clusters within resear"
+        },
+        {
+          "cell": "F16",
+          "style": "37",
+          "type": "s",
+          "value": "\\nUnder Other (Miscellaneous Expenses), expenditures for promoting the development of next-generation human resources in science and technology fields that contribute to the spread and promotion of AI for Science are permitted:\\n・Costs for online science, physics, chemistry classes and outreach lectures at elementary, junior high, and high schools by doctoral degree holders in science and mathematics fields\\n・Costs for creating and distributing research results as content easily understandable t"
+        },
+        {
+          "cell": "C17",
+          "style": "38",
+          "type": "s",
+          "value": "Consumption Tax Equivalent\\n(Contract Projects Only)"
+        },
+        {
+          "cell": "D17",
+          "style": "39",
+          "type": "s",
+          "value": "Amounts equivalent to 10% of \"personnel costs excluding commuting allowances,\" \"international travel expenses and invitation travel expenses for foreign researchers excluding preparation allowances and domestic travel expenses,\" \"various honoraria,\" and \"insurance premiums,\" and other amounts that are non-taxable (non-deductible) transactions for consumption tax purposes."
+        },
+        {
+          "cell": "E17",
+          "style": "40",
+          "type": "s",
+          "value": "　"
+        },
+        {
+          "cell": "F17",
+          "style": "41",
+          "type": "s",
+          "value": "This program is a grant-type program, so this item is not applicable."
+        },
+        {
+          "cell": "A19",
+          "style": "254",
+          "type": "s",
+          "value": "Indirect Costs"
+        },
+        {
+          "cell": "D19",
+          "style": "46",
+          "type": "s",
+          "value": "Costs allocated at a fixed ratio to direct costs and used by the recipient institution for management and other purposes associated with conducting research under competitive research funding."
+        },
+        {
+          "cell": "A21",
+          "style": "257",
+          "type": "s",
+          "value": "Sub-Contracting / Joint Implementation Costs"
+        },
+        {
+          "cell": "D21",
+          "style": "50",
+          "type": "s",
+          "value": "Costs for the contractor to further sub-contract a portion of the contracted work to a third party or to implement it jointly with a third party (including amounts equivalent to indirect costs)."
+        },
+        {
+          "cell": "F21",
+          "style": "52",
+          "type": "s",
+          "value": "This program is a grant-type program, so this item is not applicable."
+        }
+      ]
+    },
+    {
+      "title": "Research Plan_Sheet 1",
+      "target": "xl/worksheets/sheet3.xml",
+      "dimension": "A1:AF61",
+      "merged_ranges": [
+        "B2:L2",
+        "C8:L8",
+        "C15:D15",
+        "C17:L17",
+        "C18:L18",
+        "C10:L10",
+        "D12:L13",
+        "C9:L9",
+        "C11:L11",
+        "J15:L15",
+        "E48:F48",
+        "G48:H48",
+        "C28:L28",
+        "C19:L19",
+        "C20:G20",
+        "I47:J47",
+        "G47:H47",
+        "C22:L22",
+        "C21:L21",
+        "C43:L43",
+        "C36:L36",
+        "E46:L46",
+        "C27:L27",
+        "C23:L23",
+        "C46:D47",
+        "C49:L49",
+        "C12:C13",
+        "H20:K20",
+        "C30:L30",
+        "C34:L34",
+        "C24:L24",
+        "C42:L42",
+        "C14:L14",
+        "E47:F47",
+        "C35:L35",
+        "C29:L29",
+        "C16:L16",
+        "I48:J48",
+        "K32:L33",
+        "C41:L41",
+        "C31:L31"
+      ],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "53",
+          "type": "s",
+          "value": "Form 1"
+        },
+        {
+          "cell": "M1",
+          "style": "150",
+          "type": "s",
+          "value": "English"
+        },
+        {
+          "cell": "N1",
+          "style": "53",
+          "type": "s",
+          "value": "Sheet 1"
+        },
+        {
+          "cell": "B2",
+          "style": "313",
+          "type": "s",
+          "value": "FY2026 Supporting Pioneering Research through AI for 1,000 Discovery challenges（SPReAD） Research Plan"
+        },
+        {
+          "cell": "G6",
+          "style": "62",
+          "type": "s",
+          "value": "Submission Date"
+        },
+        {
+          "cell": "I6",
+          "style": "61",
+          "type": "s",
+          "value": "Year"
+        },
+        {
+          "cell": "K6",
+          "style": "61",
+          "type": "s",
+          "value": "Month"
+        },
+        {
+          "cell": "M6",
+          "style": "61",
+          "type": "s",
+          "value": "Day"
+        },
+        {
+          "cell": "B7",
+          "style": "213",
+          "type": "s",
+          "value": "Applicant Information"
+        },
+        {
+          "cell": "B8",
+          "style": "101",
+          "type": "s",
+          "value": "e-Rad Researcher ID (8-digit half-width numerals)"
+        },
+        {
+          "cell": "C9",
+          "style": "274",
+          "type": "s",
+          "value": "If the principal investigator does not have their own researcher ID, please enter the ID of the supervising faculty member or other person submitting on their behalf.\\n*Due to Excel's specifications, a leading \"0\" may not be displayed, but this will not affect the review process."
+        },
+        {
+          "cell": "B10",
+          "style": "103",
+          "type": "s",
+          "value": "Email Address"
+        },
+        {
+          "cell": "C11",
+          "style": "276",
+          "type": "s",
+          "value": "*Please be sure to use the email address of the principal investigator issued by their affiliated institution."
+        },
+        {
+          "cell": "B12",
+          "style": "103",
+          "type": "s",
+          "value": "Principal Investigator Name"
+        },
+        {
+          "cell": "C12",
+          "style": "268",
+          "type": "s",
+          "value": "Full \\nName"
+        },
+        {
+          "cell": "C14",
+          "style": "276",
+          "type": "s",
+          "value": "*Please leave one half-width space between the family name and given name."
+        },
+        {
+          "cell": "B15",
+          "style": "154",
+          "type": "s",
+          "value": "Date of Birth (Western calendar, half-width numerals)"
+        },
+        {
+          "cell": "E15",
+          "style": "137",
+          "type": "s",
+          "value": "Year"
+        },
+        {
+          "cell": "G15",
+          "style": "138",
+          "type": "s",
+          "value": "Month"
+        },
+        {
+          "cell": "I15",
+          "style": "137",
+          "type": "s",
+          "value": "Day"
+        },
+        {
+          "cell": "B16",
+          "style": "103",
+          "type": "s",
+          "value": "e-Rad Institution Code (half-width numerals)"
+        },
+        {
+          "cell": "C17",
+          "style": "274",
+          "type": "s",
+          "value": "*Please note that this is different from the institution number for Grants-in-Aid for Scientific Research (Kakenhi). If you are unsure, please check on e-Rad or with your affiliated institution."
+        },
+        {
+          "cell": "B18",
+          "style": "154",
+          "type": "s",
+          "value": "Institution"
+        },
+        {
+          "cell": "B19",
+          "style": "154",
+          "type": "s",
+          "value": "Department / Division"
+        },
+        {
+          "cell": "B20",
+          "style": "136",
+          "type": "s",
+          "value": "Position / Title"
+        },
+        {
+          "cell": "H20",
+          "style": "270",
+          "type": "s",
+          "value": "Students only: please select \"Y\" from the dropdown. →"
+        },
+        {
+          "cell": "B21",
+          "style": "103",
+          "type": "s",
+          "value": "Institution Category"
+        },
+        {
+          "cell": "C22",
+          "style": "274",
+          "type": "s",
+          "value": "*Please select the most applicable option from the dropdown.\\n*If the dropdown is unavailable, please select from the \"Institution Category\" column in the \"List\" tab and copy it here."
+        },
+        {
+          "cell": "B23",
+          "style": "136",
+          "type": "s",
+          "value": "Applicant Attribute Category"
+        },
+        {
+          "cell": "C24",
+          "style": "265",
+          "type": "s",
+          "value": "*Please select the most applicable option from the dropdown.\\n*If the dropdown is unavailable, please select from the \"Applicant Attribute Category\" column in the \"List\" tab and copy it here."
+        },
+        {
+          "cell": "B26",
+          "style": "179",
+          "type": "s",
+          "value": "Research Project Information"
+        },
+        {
+          "cell": "B27",
+          "style": "101",
+          "type": "s",
+          "value": "Research Area"
+        },
+        {
+          "cell": "C28",
+          "style": "274",
+          "type": "s",
+          "value": "*Please refer to the \"Notes) Important Notes for Filling Out This Form\" tab and select the most applicable option from the dropdown.\\n*If the dropdown is unavailable, please select from column B \"Research Area\" in the \"Reference: Research Area Classification\" table in the \"Notes) Important Notes for Filling Out This Form\" tab and copy it here."
+        },
+        {
+          "cell": "B29",
+          "style": "106",
+          "type": "s",
+          "value": "Main Use Case Classification"
+        },
+        {
+          "cell": "C30",
+          "style": "271",
+          "type": "s",
+          "value": "*Please refer to the \"Notes) Important Notes for Filling Out This Form\" tab and select the most applicable option from the dropdown.\\n*If the dropdown is unavailable, please select from column C \"Use Case Classification\" in the \"Reference: Use Case Classification\" table in the \"Notes) Important Notes for Filling Out This Form\" tab and copy it here."
+        },
+        {
+          "cell": "B31",
+          "style": "180",
+          "type": "s",
+          "value": "If \"9. Other\" is selected (free text)"
+        },
+        {
+          "cell": "B32",
+          "style": "103",
+          "type": "s",
+          "value": "Sub-Use Case Selection"
+        },
+        {
+          "cell": "D32",
+          "style": "66",
+          "type": "s",
+          "value": "1. Training Dataset Construction"
+        },
+        {
+          "cell": "F32",
+          "style": "66",
+          "type": "s",
+          "value": "2. Adaptation of Existing Models"
+        },
+        {
+          "cell": "H32",
+          "style": "66",
+          "type": "s",
+          "value": "3. AI Model Development"
+        },
+        {
+          "cell": "J32",
+          "style": "157",
+          "type": "s",
+          "value": "4. Evaluation of Existing Models"
+        },
+        {
+          "cell": "D33",
+          "style": "68",
+          "type": "s",
+          "value": "5. Experimental Automation /\\nAutonomization"
+        },
+        {
+          "cell": "F33",
+          "style": "174",
+          "type": "s",
+          "value": "6. Simulation /\\nDigital Twin"
+        },
+        {
+          "cell": "H33",
+          "style": "174",
+          "type": "s",
+          "value": "7. Discovery / Design Support"
+        },
+        {
+          "cell": "J33",
+          "style": "70",
+          "type": "s",
+          "value": "8. Advanced Data Analysis /\\nModeling"
+        },
+        {
+          "cell": "C34",
+          "style": "274",
+          "type": "s",
+          "value": "*Please refer to the \"Notes) Important Notes for Filling Out This Form\" tab and mark all items that apply as secondary purposes for achieving the main use case by selecting \"Y\" from the dropdown."
+        },
+        {
+          "cell": "N34",
+          "style": "153",
+          "type": "s",
+          "value": "Character\\n Count"
+        },
+        {
+          "cell": "B35",
+          "style": "103",
+          "type": "s",
+          "value": "Research Project Title"
+        },
+        {
+          "cell": "N35",
+          "style": "71",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C36",
+          "style": "265",
+          "type": "s",
+          "value": "(English: around 30 words)\\n*The above character count is a guideline."
+        },
+        {
+          "cell": "B38",
+          "style": "179",
+          "type": "s",
+          "value": "AI Utilization Level"
+        },
+        {
+          "cell": "B39",
+          "style": "108",
+          "type": "s",
+          "value": "AI Utilization Level Selection (multiple selections allowed)\\n"
+        },
+        {
+          "cell": "D39",
+          "style": "74",
+          "type": "s",
+          "value": "Not using AI at all in research"
+        },
+        {
+          "cell": "F39",
+          "style": "75",
+          "type": "s",
+          "value": "Using AI for non-research tasks (email, translation, etc.)"
+        },
+        {
+          "cell": "H39",
+          "style": "75",
+          "type": "s",
+          "value": "Using AI for literature searches or summaries in research"
+        },
+        {
+          "cell": "J39",
+          "style": "75",
+          "type": "s",
+          "value": "Using AI for writing papers or preparing research presentations"
+        },
+        {
+          "cell": "L39",
+          "style": "77",
+          "type": "s",
+          "value": "Using AI for hypothesis consideration or idea generation"
+        },
+        {
+          "cell": "D40",
+          "style": "78",
+          "type": "s",
+          "value": "Have used AI (including self-created deep learning code, etc.) to analyze or process research data"
+        },
+        {
+          "cell": "F40",
+          "style": "79",
+          "type": "s",
+          "value": "Have presented analysis results using AI or deep learning as research outcomes in papers or presentations"
+        },
+        {
+          "cell": "H40",
+          "style": "79",
+          "type": "s",
+          "value": "Have integrated existing AI into the research process via API"
+        },
+        {
+          "cell": "J40",
+          "style": "79",
+          "type": "s",
+          "value": "Have developed AI / deep learning models myself (including the full cycle of training and evaluation) and used them in research"
+        },
+        {
+          "cell": "L40",
+          "style": "81",
+          "type": "s",
+          "value": "Have experience developing new foundation models"
+        },
+        {
+          "cell": "C41",
+          "style": "274",
+          "type": "s",
+          "value": "*This does not directly affect acceptance or rejection.\\n*Please mark all applicable items by selecting \"Y\" from the dropdown."
+        },
+        {
+          "cell": "N41",
+          "style": "53",
+          "type": "s",
+          "value": "English"
+        },
+        {
+          "cell": "B42",
+          "style": "103",
+          "type": "s",
+          "value": "Specific Current Usage Methods"
+        },
+        {
+          "cell": "N42",
+          "style": "71",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C43",
+          "style": "265",
+          "type": "s",
+          "value": "(English: around 120 words)\\n*The above character count is a guideline."
+        },
+        {
+          "cell": "B45",
+          "style": "179",
+          "type": "s",
+          "value": "Research Expenses"
+        },
+        {
+          "cell": "B46",
+          "style": "108",
+          "type": "s",
+          "value": "Research Expenses (half-width numerals)"
+        },
+        {
+          "cell": "C46",
+          "style": "309",
+          "type": "s",
+          "value": "Research Expenses (thousand yen)"
+        },
+        {
+          "cell": "E46",
+          "style": "301",
+          "type": "s",
+          "value": "Breakdown (thousand yen)"
+        },
+        {
+          "cell": "E47",
+          "style": "281",
+          "type": "s",
+          "value": "Equipment and Fixtures"
+        },
+        {
+          "cell": "G47",
+          "style": "300",
+          "type": "s",
+          "value": "Consumable Supplies"
+        },
+        {
+          "cell": "I47",
+          "style": "300",
+          "type": "s",
+          "value": "Honoraria"
+        },
+        {
+          "cell": "K47",
+          "style": "173",
+          "type": "s",
+          "value": "Travel Expenses"
+        },
+        {
+          "cell": "L47",
+          "style": "161",
+          "type": "s",
+          "value": "Other"
+        },
+        {
+          "cell": "C48",
+          "style": "82",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "D48",
+          "style": "139",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "E48",
+          "style": "295",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "G48",
+          "style": "286",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "I48",
+          "style": "286",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "K48",
+          "style": "172",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L48",
+          "style": "140",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C49",
+          "style": "265",
+          "type": "s",
+          "value": "*This field is automatically populated from the totals in each section of Research Plan_Sheet 3. Please do not edit it.\\n*If the total research expenses are less than 100,000 yen or exceed 5,000,000 yen, an error will be displayed in red."
+        }
+      ]
+    },
+    {
+      "title": "Research Plan_Sheet 2",
+      "target": "xl/worksheets/sheet4.xml",
+      "dimension": "A1:F52",
+      "merged_ranges": [
+        "E14:E18",
+        "B20:E20",
+        "C14:C18",
+        "B3:E3"
+      ],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "53",
+          "type": "s",
+          "value": "Form 1"
+        },
+        {
+          "cell": "E1",
+          "style": "150",
+          "type": "s",
+          "value": "English"
+        },
+        {
+          "cell": "F1",
+          "style": "53",
+          "type": "s",
+          "value": "Sheet 2"
+        },
+        {
+          "cell": "B2",
+          "style": "56",
+          "type": "s",
+          "value": "FY2026 Supporting Pioneering Research through AI for 1,000 Discovery challenges（SPReAD） Research Plan"
+        },
+        {
+          "cell": "B3",
+          "style": "324",
+          "type": "s",
+          "value": "Important Notes\\n   ■   Please be sure to refer to \"4. For Applicants (3) Preparation and Submission of Application Documents (Research Plan)\" in the Call for Applications before filling in this form.\\n   ■   Descriptions should in principle be written in prose. Research plans using colored figures or text will be reviewed as submitted.\\n   ■   If figures or tables are needed for explanation, please include them in the designated figure/table section provided later in this form."
+        },
+        {
+          "cell": "B6",
+          "style": "211",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "C6",
+          "style": "90",
+          "type": "s",
+          "value": "Item"
+        },
+        {
+          "cell": "D6",
+          "style": "91",
+          "type": "s",
+          "value": "Input Field"
+        },
+        {
+          "cell": "E6",
+          "style": "151",
+          "type": "s",
+          "value": "Character Count\\n*An error will be displayed in red if the count is below or above the specified limit."
+        },
+        {
+          "cell": "B8",
+          "style": "85",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C8",
+          "style": "89",
+          "type": "s",
+          "value": "Research Objectives\\nPlease specifically describe the content and purpose of the research project: what research you will conduct and for what purpose. Clearly state the phenomena and issues to be addressed, the problems to be solved, and the knowledge to be obtained.\\n<Character Count Limit>\\nEnglish: 48–240 words\\n"
+        },
+        {
+          "cell": "E8",
+          "style": "94",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B9",
+          "style": "85",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C9",
+          "style": "89",
+          "type": "s",
+          "value": "Research Methods\\nPlease describe the specific methods for achieving the research objectives. Organize the research process step by step and clearly indicate how AI will be applied or developed at each stage. Also describe as specifically as possible the types of data to be used, how they will be obtained, evaluation metrics, and verification methods.\\n<Character Count Limit>\\nEnglish: 96–480 words\\n"
+        },
+        {
+          "cell": "E9",
+          "style": "94",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B10",
+          "style": "85",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C10",
+          "style": "89",
+          "type": "s",
+          "value": "Rationale and Feasibility of AI Utilization\\nPlease describe the necessity and rationale for utilizing AI in this research project. Specifically explain the limitations of conventional methods and what becomes achievable through AI utilization, clearly conveying the significance of using AI in this research.\\n<Character Count Limit>\\nEnglish: 96–480 words\\n"
+        },
+        {
+          "cell": "E10",
+          "style": "94",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B11",
+          "style": "85",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C11",
+          "style": "89",
+          "type": "s",
+          "value": "Achievement Goals\\nPlease briefly state the ultimate goal this research project aims to achieve, and then describe in concrete terms what you aim to accomplish during the research period of this program (approximately 180 days). The ultimate goal may include objectives to be achieved after the end of the funding period or future research developments.\\nOn that basis, please specify how far the research will advance toward that ultimate goal within the research period of this program. In doing so"
+        },
+        {
+          "cell": "E11",
+          "style": "94",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B12",
+          "style": "85",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C12",
+          "style": "89",
+          "type": "s",
+          "value": "Plan for Extracting and Sharing AI Utilization Know-How\\nThis program will build a community for sharing knowledge about AI for Science. Please describe how you will organize and extract the AI utilization knowledge gained through this research and share and disseminate it within that community. Systematically organize the methods and challenges of AI utilization at each stage, and describe with awareness of sharing in a form that can be utilized in other research fields.\\n<Character Count Limit"
+        },
+        {
+          "cell": "E12",
+          "style": "94",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B13",
+          "style": "86",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C13",
+          "style": "155",
+          "type": "s",
+          "value": "Publication Policy for Research Outcomes (Optional)\\nPlease describe what research outcomes you plan to publish and how you plan to publish them.\\n(Examples: papers, research data, source code, prototypes, reports, etc.)\\n<Character Count Limit>\\nEnglish: up to 90 words\\n"
+        },
+        {
+          "cell": "E13",
+          "style": "130",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "B14",
+          "style": "86",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C14",
+          "style": "321",
+          "type": "s",
+          "value": "Research Achievements, etc.\\nIf you have major achievements (academic papers, conference presentations, or books) related to this research project, please list up to 5 items total, one per cell, in bullet point format.\\nPlease include only achievements that include the principal investigator themselves.\\n・Academic papers: Include \"Title,\" \"Author(s) (underline the applicant),\" \"Journal Name,\" and \"Publication Date.\" \"Citation count\" may be added, but if so, specify the source and retrieval date."
+        },
+        {
+          "cell": "B20",
+          "style": "320",
+          "type": "s",
+          "value": "[Reference: Attaching Figures]\\nTo facilitate understanding of the research content, please attach figures as appropriate below this point that illustrate the research process, points where AI is applied, etc.\\nFigures should be concise and clear, supplementing relationships and flows that are difficult to convey in text (maximum 1 figure).\\n*There is no need to insert images into cells.\\n"
+        }
+      ]
+    },
+    {
+      "title": "Research Plan_Sheet 3",
+      "target": "xl/worksheets/sheet5.xml",
+      "dimension": "A1:P94",
+      "merged_ranges": [
+        "C89:D89",
+        "E23:F23",
+        "H55:I55",
+        "G23:H23",
+        "H39:I39",
+        "C67:E67",
+        "C62:N62",
+        "C63:N63",
+        "L38:N38",
+        "H59:I59",
+        "G60:I60",
+        "L9:N9",
+        "G18:H18",
+        "H52:I52",
+        "C91:N91",
+        "H45:I45",
+        "E27:F27",
+        "L31:M31",
+        "C34:N34",
+        "C31:I31",
+        "G20:H20",
+        "E22:F22",
+        "G22:H22",
+        "E12:F12",
+        "G12:H12",
+        "H54:I54",
+        "H41:I41",
+        "E14:F14",
+        "H50:I50",
+        "H56:I56",
+        "H49:I49",
+        "C38:E38",
+        "G21:H21",
+        "H53:I53",
+        "C9:J9",
+        "C60:D60",
+        "G24:H24",
+        "G38:J38",
+        "E26:F26",
+        "G26:H26",
+        "E16:F16",
+        "C33:N33",
+        "G16:H16",
+        "H48:I48",
+        "E25:F25",
+        "G25:H25",
+        "E18:F18",
+        "L60:M60",
+        "E17:F17",
+        "G17:H17",
+        "B4:O4",
+        "H43:I43",
+        "G11:H11",
+        "H58:I58",
+        "H40:I40",
+        "E20:F20",
+        "E29:F29",
+        "E13:F13",
+        "G13:H13",
+        "E15:F15",
+        "G15:H15",
+        "H57:I57",
+        "H42:I42",
+        "E24:F24",
+        "G27:H27",
+        "H44:I44",
+        "C92:N92",
+        "E21:F21",
+        "G10:H10",
+        "E10:F10",
+        "H46:I46",
+        "E19:F19",
+        "G19:H19",
+        "H51:I51",
+        "E28:F28",
+        "G28:H28",
+        "E30:F30",
+        "G30:H30",
+        "E11:F11",
+        "G14:H14",
+        "H47:I47",
+        "G29:H29"
+      ],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "53",
+          "type": "s",
+          "value": "Form 1"
+        },
+        {
+          "cell": "N1",
+          "style": "150",
+          "type": "s",
+          "value": "English"
+        },
+        {
+          "cell": "O1",
+          "style": "53",
+          "type": "s",
+          "value": "Sheet 3"
+        },
+        {
+          "cell": "B2",
+          "style": "56",
+          "type": "s",
+          "value": "FY2026 Supporting Pioneering Research through AI for 1,000 Discovery challenges（SPReAD） Research Plan"
+        },
+        {
+          "cell": "B3",
+          "style": "53",
+          "type": "s",
+          "value": "Research Expenses and Their Necessity"
+        },
+        {
+          "cell": "B4",
+          "style": "324",
+          "type": "s",
+          "value": "Important Notes\\n   ■   If \"Equipment and Fixtures,\" \"Travel Expenses,\" or \"Honoraria\" accounts for more than 90% of the research budget, or if any particular item under \"Other\" (Consumable Supplies, Other) accounts for a disproportionately large share, the necessity of that expense for conducting the research must be stated in the Research Plan.\\n   ■   The total fields are calculated automatically. When entering amounts, always use half-width numerals and round down any amount below 1,000 yen."
+        },
+        {
+          "cell": "B7",
+          "style": "96",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C7",
+          "style": "96",
+          "type": "s",
+          "value": "Equipment, Fixtures and Consumable Supplies"
+        },
+        {
+          "cell": "C9",
+          "style": "336",
+          "type": "s",
+          "value": "Equipment and Fixtures　Breakdown"
+        },
+        {
+          "cell": "L9",
+          "style": "336",
+          "type": "s",
+          "value": "Consumable Supplies Breakdown"
+        },
+        {
+          "cell": "C10",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "D10",
+          "style": "158",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "E10",
+          "style": "332",
+          "type": "s",
+          "value": "Installing Institution"
+        },
+        {
+          "cell": "G10",
+          "style": "330",
+          "type": "s",
+          "value": "Unit Price (thousand yen)"
+        },
+        {
+          "cell": "I10",
+          "style": "158",
+          "type": "s",
+          "value": "Quantity"
+        },
+        {
+          "cell": "J10",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "L10",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "M10",
+          "style": "144",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "N10",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "C11",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "J11",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L11",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C12",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "J12",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L12",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C13",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "J13",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L13",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C14",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "J14",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L14",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C15",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "J15",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L15",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C16",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "J16",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L16",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C17",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "J17",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L17",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C18",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "J18",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L18",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "C19",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "J19",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L19",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "C20",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "J20",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L20",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "C21",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "J21",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L21",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "C22",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "J22",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L22",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "C23",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "J23",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L23",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "C24",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "J24",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L24",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "C25",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "J25",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L25",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "C26",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "J26",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L26",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "C27",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "J27",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L27",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "C28",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "J28",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L28",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "C29",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "J29",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L29",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "C30",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "J30",
+          "style": "133",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L30",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "C31",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "J31",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L31",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "N31",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C33",
+          "style": "336",
+          "type": "s",
+          "value": "Necessity of Equipment, Fixtures and Consumable Supplies"
+        },
+        {
+          "cell": "B36",
+          "style": "96",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C36",
+          "style": "96",
+          "type": "s",
+          "value": "Honoraria and Travel Expenses"
+        },
+        {
+          "cell": "C38",
+          "style": "336",
+          "type": "s",
+          "value": "Honoraria Breakdown"
+        },
+        {
+          "cell": "G38",
+          "style": "336",
+          "type": "s",
+          "value": "Domestic Travel Expense Breakdown"
+        },
+        {
+          "cell": "L38",
+          "style": "336",
+          "type": "s",
+          "value": "International Travel Expense Breakdown"
+        },
+        {
+          "cell": "C39",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "D39",
+          "style": "158",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "E39",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "G39",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "H39",
+          "style": "332",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "J39",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "L39",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "M39",
+          "style": "158",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "N39",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "C40",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "G40",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "L40",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C41",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "G41",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "L41",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C42",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "G42",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "L42",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C43",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "G43",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "L43",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C44",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "G44",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "L44",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C45",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "G45",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "L45",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C46",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "G46",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "L46",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C47",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "G47",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "L47",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "C48",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "G48",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "L48",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "C49",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "G49",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "L49",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "C50",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "G50",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "L50",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "C51",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "G51",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "L51",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "C52",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "G52",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "L52",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "C53",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "G53",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "L53",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "C54",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "G54",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "L54",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "C55",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "G55",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "L55",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "C56",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "G56",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "L56",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "C57",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "G57",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "L57",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "C58",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "G58",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "L58",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "C59",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "G59",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "L59",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "C60",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "E60",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "G60",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "J60",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "L60",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "N60",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C62",
+          "style": "336",
+          "type": "s",
+          "value": "Necessity of Honoraria and Travel Expenses"
+        },
+        {
+          "cell": "B65",
+          "style": "96",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C65",
+          "style": "96",
+          "type": "s",
+          "value": "Other Expenses"
+        },
+        {
+          "cell": "C67",
+          "style": "336",
+          "type": "s",
+          "value": "Other Expenses Breakdown"
+        },
+        {
+          "cell": "G67",
+          "style": "57",
+          "type": "s",
+          "value": "Repeated) Important Notes"
+        },
+        {
+          "cell": "C68",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "D68",
+          "style": "158",
+          "type": "s",
+          "value": "Item Description"
+        },
+        {
+          "cell": "E68",
+          "style": "160",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "G68",
+          "style": "57",
+          "type": "s",
+          "value": "■"
+        },
+        {
+          "cell": "H68",
+          "style": "57",
+          "type": "s",
+          "value": "If API or computational resource (including cloud GPU) costs are listed under \"Other,\""
+        },
+        {
+          "cell": "C69",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "H69",
+          "style": "57",
+          "type": "s",
+          "value": "please provide detailed information in \"Research Plan_Sheet 4.\""
+        },
+        {
+          "cell": "C70",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "G70",
+          "style": "57",
+          "type": "s",
+          "value": "■"
+        },
+        {
+          "cell": "H70",
+          "style": "57",
+          "type": "s",
+          "value": "Also, if computational resources are acquired as physical assets and classified under "
+        },
+        {
+          "cell": "C71",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "H71",
+          "style": "57",
+          "type": "s",
+          "value": "\"Equipment and Fixtures,\"please provide detailed information "
+        },
+        {
+          "cell": "C72",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "H72",
+          "style": "57",
+          "type": "s",
+          "value": "in \"Research Plan_Sheet 4.\""
+        },
+        {
+          "cell": "C73",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C74",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C75",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C76",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "C77",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "C78",
+          "style": "132",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "C79",
+          "style": "132",
+          "type": null,
+          "value": "11"
+        },
+        {
+          "cell": "C80",
+          "style": "132",
+          "type": null,
+          "value": "12"
+        },
+        {
+          "cell": "C81",
+          "style": "132",
+          "type": null,
+          "value": "13"
+        },
+        {
+          "cell": "C82",
+          "style": "132",
+          "type": null,
+          "value": "14"
+        },
+        {
+          "cell": "C83",
+          "style": "132",
+          "type": null,
+          "value": "15"
+        },
+        {
+          "cell": "C84",
+          "style": "132",
+          "type": null,
+          "value": "16"
+        },
+        {
+          "cell": "C85",
+          "style": "132",
+          "type": null,
+          "value": "17"
+        },
+        {
+          "cell": "C86",
+          "style": "132",
+          "type": null,
+          "value": "18"
+        },
+        {
+          "cell": "C87",
+          "style": "132",
+          "type": null,
+          "value": "19"
+        },
+        {
+          "cell": "C88",
+          "style": "132",
+          "type": null,
+          "value": "20"
+        },
+        {
+          "cell": "C89",
+          "style": "337",
+          "type": "s",
+          "value": "Total"
+        },
+        {
+          "cell": "E89",
+          "style": "134",
+          "type": null,
+          "value": "0"
+        },
+        {
+          "cell": "C91",
+          "style": "336",
+          "type": "s",
+          "value": "Necessity of Other Expenses"
+        }
+      ]
+    },
+    {
+      "title": "Research Plan_Sheet 4",
+      "target": "xl/worksheets/sheet6.xml",
+      "dimension": "A1:I32",
+      "merged_ranges": [
+        "B2:G2",
+        "F18:G18",
+        "B4:G4",
+        "F14:G14",
+        "F13:G13",
+        "F17:G17",
+        "F9:G9",
+        "F8:G8",
+        "F11:G11",
+        "F12:G12",
+        "F15:G15",
+        "F16:G16",
+        "F10:G10"
+      ],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "53",
+          "type": "s",
+          "value": "Form 1"
+        },
+        {
+          "cell": "G1",
+          "style": "150",
+          "type": "s",
+          "value": "English"
+        },
+        {
+          "cell": "H1",
+          "style": "53",
+          "type": "s",
+          "value": "Sheet 4"
+        },
+        {
+          "cell": "B2",
+          "style": "313",
+          "type": "s",
+          "value": "FY2026 Supporting Pioneering Research through AI for 1,000 Discovery challenges（SPReAD） Research Plan"
+        },
+        {
+          "cell": "B3",
+          "style": "53",
+          "type": "s",
+          "value": "Research Expenses and Their Necessity"
+        },
+        {
+          "cell": "B4",
+          "style": "324",
+          "type": "s",
+          "value": "Important Notes\\n   ■   In this section, please organize and describe the breakdown of costs associated with AI usage by item.\\n         If there are multiple purposes or multiple types of GPUs being used, please divide entries by purpose \\n         or GPU type."
+        },
+        {
+          "cell": "C7",
+          "style": "143",
+          "type": "s",
+          "value": "Cost Details: API Costs"
+        },
+        {
+          "cell": "C8",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "D8",
+          "style": "158",
+          "type": "s",
+          "value": "Processing Target"
+        },
+        {
+          "cell": "E8",
+          "style": "159",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "F8",
+          "style": "342",
+          "type": "s",
+          "value": "Cost Basis (input/output volume per request, processing speed, re-execution rate, etc.)"
+        },
+        {
+          "cell": "C9",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C10",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C11",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C12",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C13",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C14",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C15",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C16",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "C17",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "C18",
+          "style": "147",
+          "type": null,
+          "value": "10"
+        },
+        {
+          "cell": "C20",
+          "style": "143",
+          "type": "s",
+          "value": "Cost Details: Computational Resource Costs (including Cloud GPU)"
+        },
+        {
+          "cell": "C21",
+          "style": "131",
+          "type": "s",
+          "value": "#"
+        },
+        {
+          "cell": "D21",
+          "style": "158",
+          "type": "s",
+          "value": "GPU Type"
+        },
+        {
+          "cell": "E21",
+          "style": "159",
+          "type": "s",
+          "value": "Reason for Selecting This GPU"
+        },
+        {
+          "cell": "F21",
+          "style": "159",
+          "type": "s",
+          "value": "Amount (thousand yen)"
+        },
+        {
+          "cell": "G21",
+          "style": "160",
+          "type": "s",
+          "value": "Cost Basis (volume and frequency of data processing, etc.)"
+        },
+        {
+          "cell": "C22",
+          "style": "132",
+          "type": null,
+          "value": "1"
+        },
+        {
+          "cell": "C23",
+          "style": "132",
+          "type": null,
+          "value": "2"
+        },
+        {
+          "cell": "C24",
+          "style": "132",
+          "type": null,
+          "value": "3"
+        },
+        {
+          "cell": "C25",
+          "style": "132",
+          "type": null,
+          "value": "4"
+        },
+        {
+          "cell": "C26",
+          "style": "132",
+          "type": null,
+          "value": "5"
+        },
+        {
+          "cell": "C27",
+          "style": "132",
+          "type": null,
+          "value": "6"
+        },
+        {
+          "cell": "C28",
+          "style": "132",
+          "type": null,
+          "value": "7"
+        },
+        {
+          "cell": "C29",
+          "style": "132",
+          "type": null,
+          "value": "8"
+        },
+        {
+          "cell": "C30",
+          "style": "132",
+          "type": null,
+          "value": "9"
+        },
+        {
+          "cell": "C31",
+          "style": "147",
+          "type": null,
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "title": "List",
+      "target": "xl/worksheets/sheet7.xml",
+      "dimension": "A1:D11",
+      "merged_ranges": [],
+      "non_empty": [
+        {
+          "cell": "A1",
+          "style": "197",
+          "type": "s",
+          "value": "Research Area"
+        },
+        {
+          "cell": "B1",
+          "style": "197",
+          "type": "s",
+          "value": "Use Case Classification"
+        },
+        {
+          "cell": "C1",
+          "style": "197",
+          "type": "s",
+          "value": "Institution Category"
+        },
+        {
+          "cell": "D1",
+          "style": "197",
+          "type": "s",
+          "value": "Applicant Attribute Category"
+        },
+        {
+          "cell": "A2",
+          "style": "99",
+          "type": "s",
+          "value": "Clinical Science"
+        },
+        {
+          "cell": "B2",
+          "style": "99",
+          "type": "s",
+          "value": "1. Training Dataset Construction"
+        },
+        {
+          "cell": "C2",
+          "style": "198",
+          "type": "s",
+          "value": "University"
+        },
+        {
+          "cell": "D2",
+          "style": "198",
+          "type": "s",
+          "value": "Faculty Member"
+        },
+        {
+          "cell": "A3",
+          "style": "99",
+          "type": "s",
+          "value": "Life Sciences / Pharmacy"
+        },
+        {
+          "cell": "B3",
+          "style": "99",
+          "type": "s",
+          "value": "2. Adaptation of Existing Models"
+        },
+        {
+          "cell": "C3",
+          "style": "198",
+          "type": "s",
+          "value": "Technical College (Kosen)"
+        },
+        {
+          "cell": "D3",
+          "style": "198",
+          "type": "s",
+          "value": "Researcher (including Postdoc)"
+        },
+        {
+          "cell": "A4",
+          "style": "99",
+          "type": "s",
+          "value": "Chemistry"
+        },
+        {
+          "cell": "B4",
+          "style": "99",
+          "type": "s",
+          "value": "3. AI Model Development"
+        },
+        {
+          "cell": "C4",
+          "style": "198",
+          "type": "s",
+          "value": "Public Research Institution"
+        },
+        {
+          "cell": "D4",
+          "style": "198",
+          "type": "s",
+          "value": "Doctoral Student"
+        },
+        {
+          "cell": "A5",
+          "style": "99",
+          "type": "s",
+          "value": "Mechanical / Infrastructure / Energy Engineering"
+        },
+        {
+          "cell": "B5",
+          "style": "99",
+          "type": "s",
+          "value": "4. Evaluation of Existing Models"
+        },
+        {
+          "cell": "C5",
+          "style": "198",
+          "type": "s",
+          "value": "Private Company"
+        },
+        {
+          "cell": "D5",
+          "style": "198",
+          "type": "s",
+          "value": "Master's Student"
+        },
+        {
+          "cell": "A6",
+          "style": "99",
+          "type": "s",
+          "value": "Materials / Process / Applied Biomedical Engineering"
+        },
+        {
+          "cell": "B6",
+          "style": "99",
+          "type": "s",
+          "value": "5. Experimental Automation / Autonomization"
+        },
+        {
+          "cell": "C6",
+          "style": "198",
+          "type": "s",
+          "value": "Non-Profit Organization / Public Interest Corporation"
+        },
+        {
+          "cell": "D6",
+          "style": "198",
+          "type": "s",
+          "value": "Undergraduate Student"
+        },
+        {
+          "cell": "A7",
+          "style": "99",
+          "type": "s",
+          "value": "Electrical Engineering / Electronic Engineering / Information Science / Computer Science"
+        },
+        {
+          "cell": "B7",
+          "style": "99",
+          "type": "s",
+          "value": "6. Simulation / Digital Twin"
+        },
+        {
+          "cell": "C7",
+          "style": "198",
+          "type": "s",
+          "value": "Other (only if none of the above apply)"
+        },
+        {
+          "cell": "D7",
+          "style": "198",
+          "type": "s",
+          "value": "Technical / Administrative Staff / URA, etc."
+        },
+        {
+          "cell": "A8",
+          "style": "99",
+          "type": "s",
+          "value": "Mathematics / Physics / Earth Sciences"
+        },
+        {
+          "cell": "B8",
+          "style": "99",
+          "type": "s",
+          "value": "7. Discovery / Design Support"
+        },
+        {
+          "cell": "D8",
+          "style": "198",
+          "type": "s",
+          "value": "Engineer / Developer"
+        },
+        {
+          "cell": "A9",
+          "style": "99",
+          "type": "s",
+          "value": "Agriculture / Environmental Science / Ecology"
+        },
+        {
+          "cell": "B9",
+          "style": "99",
+          "type": "s",
+          "value": "8. Advanced Data Analysis / Modeling"
+        },
+        {
+          "cell": "D9",
+          "style": "198",
+          "type": "s",
+          "value": "Other (only if none of the above apply)"
+        },
+        {
+          "cell": "A10",
+          "style": "99",
+          "type": "s",
+          "value": "Social Sciences"
+        },
+        {
+          "cell": "B10",
+          "style": "99",
+          "type": "s",
+          "value": "9. Other"
+        },
+        {
+          "cell": "A11",
+          "style": "99",
+          "type": "s",
+          "value": "Arts / Humanities"
+        }
+      ]
+    }
+  ]
+}

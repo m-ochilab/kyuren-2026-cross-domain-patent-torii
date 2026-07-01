@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+  \centering
+  \caption{後ろ向き評価サマリー（Temporal Evaluation）}
+  \label{tab:temporal_eval}
+  \begin{tabular}{lrrr}
+    \hline
+    metric & method & value & description \\
+    \hline
+    rank\_in\_past\_ranking & UNet & 1.0000 & 過去期間ランキングにおける UNet の順位 \\
+    rank\_in\_past\_ranking & U-Net & 2.0000 & 過去期間ランキングにおける U-Net の順位 \\
+    rank\_in\_past\_ranking & nnU-Net & 3.0000 & 過去期間ランキングにおける nnU-Net の順位 \\
+    rank\_in\_past\_ranking & U-Net++ & 4.0000 & 過去期間ランキングにおける U-Net++ の順位 \\
+    Hit@1 & U-Net系 & 1.0000 & 上位1件以内にU-Net系が含まれるか（1=含む, 0=含まない） \\
+    Hit@3 & U-Net系 & 1.0000 & 上位3件以内にU-Net系が含まれるか（1=含む, 0=含まない） \\
+    Hit@5 & U-Net系 & 1.0000 & 上位5件以内にU-Net系が含まれるか（1=含む, 0=含まない） \\
+    Hit@10 & U-Net系 & 1.0000 & 上位10件以内にU-Net系が含まれるか（1=含む, 0=含まない） \\
+    B0\_future\_growth\_absolute & U-Net & 0.0088 & B0における将来期間の出現率増加（絶対値） \\
+    B0\_future\_growth\_ratio & U-Net & 39.0888 & B0における将来期間の出現率比率（将来/過去） \\
+    B0\_future\_growth\_absolute & UNet & 0.0088 & B0における将来期間の出現率増加（絶対値） \\
+    B0\_future\_growth\_ratio & UNet & 39.0888 & B0における将来期間の出現率比率（将来/過去） \\
+    past\_gap\_A0\_minus\_B0 & U-Net & 0.0000 & 過去期間(2015-2018)のA0-B0出現率差 \\
+    past\_gap\_A0\_minus\_B0 & UNet & 0.0065 & 過去期間(2015-2018)のA0-B0出現率差 \\
+    past\_gap\_A0\_minus\_B0 & U-Net & 0.0000 & 過去期間(2015-2018)のA0-B0出現率差 \\
+    past\_gap\_A0\_minus\_B0 & UNet & 0.0318 & 過去期間(2015-2018)のA0-B0出現率差 \\
+    \hline
+  \end{tabular}
+\end{table}

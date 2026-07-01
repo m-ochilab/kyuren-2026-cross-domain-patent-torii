@@ -1,0 +1,50 @@
+data:
+  a0_csv: data/raw/A0_orbis_publication_level.csv
+  a0_xlsx:
+  b0_csv: data/raw/B0_orbis_publication_level.csv
+  b0_xlsx:
+  output_dir: outputs
+  processed_dir: data/processed
+embedding:
+  batch_size: 128
+  device: auto
+  fallback_model_name: sentence-transformers/all-MiniLM-L6-v2
+  max_length: 512
+  model_name: AI-Growth-Lab/PatentSBERTa
+methods:
+  unet_final_source: title_abstract
+  target_methods:
+  - U-Net
+  - YOLO
+  - GAN
+  - CycleGAN
+  - Transformer
+  - Attention
+  - Autoencoder
+  - CNN
+  - Domain Adaptation
+  - ResNet
+  - VGG
+  - EfficientNet
+  unet_variants:
+  - U-Net
+  - UNet
+  - U Net
+  - nnU-Net
+  - U-Net++
+  - UNet++
+periods:
+  all_end: 2024
+  all_start: 2015
+  future_end: 2024
+  future_start: 2019
+  past_end: 2018
+  past_start: 2015
+sample:
+  enabled: false
+  n: 1000
+  seed: 42
+scoring:
+  epsilon: 1.0e-06
+  low_presence_bonus_cap: 10.0
+  top_k: 10

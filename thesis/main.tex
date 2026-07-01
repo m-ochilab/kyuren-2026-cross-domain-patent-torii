@@ -1,0 +1,83 @@
+\documentclass{my_bthesis}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue}
+\graphicspath{{figures/}}
+
+\newcommand{\figref}[1]{図~\ref{#1}}
+\newcommand{\tabref}[1]{表~\ref{#1}}
+\newcommand{\eqnref}[1]{式~\eqref{#1}}
+\renewcommand{\bibname}{参考文献}
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}
+
+% 論文タイトル（日本語）
+\title{特許文書の課題・解決手段分離に基づく\\クロスドメイン技術候補抽出}
+% 論文タイトル（英語）
+\etitle{Cross-Domain Technology Candidate Extraction Based on Separating Problems and Solutions in Patent Documents}
+
+\author{鳥井 春風}
+\date{2027年2月}
+
+\begin{document}
+\maketitle
+
+% --- 1. 要旨（大学様式：ページ番号なし） ---
+\startabstractpage
+\pagenumbering{gobble}
+
+\begin{center}
+  {\Large \textbf{要 \quad 旨}}
+\end{center}
+
+\input{chapters/00_abstract}
+
+\vspace*{1mm}
+\begin{center}
+\noindent \textbf{キーワード} \underline{特許文書, 課題・解決手段分離, クロスドメイン, 技術候補抽出, LLM}
+\end{center}
+
+\newpage
+
+% --- 2. 目次 ---
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\listoffigures
+\clearpage
+
+\listoftables
+\clearpage
+
+% --- 3. 本文 ---
+\startmaintext
+\pagenumbering{arabic}
+
+\input{chapters/chapter1_intro}
+\input{chapters/chapter2_related_work}
+\input{chapters/chapter3_method}
+\input{chapters/chapter4_dataset_design}
+\input{chapters/chapter5_experiment1}
+\input{chapters/chapter6_experiment2}
+\input{chapters/chapter7_discussion}
+\input{chapters/chapter8_conclusion}
+
+\input{chapter_crossdomain_reference.tex}
+
+\appendix
+\input{chapters/appendix_a_llm_prompt}
+
+\input{chapters/99_references}
+
+\end{document}

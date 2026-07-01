@@ -1,0 +1,7 @@
+﻿proposed_or_baseline,k,evaluated_count,valid_candidate_count_score_ge_2,precision_at_k,sort_basis
+baseline_random,5,5,4,0.8,"rank ascending, then review order"
+baseline_random,10,10,8,0.8,"rank ascending, then review order"
+baseline_random,20,10,8,0.8,"rank ascending, then review order"
+proposed,5,5,2,0.4,"rank ascending, then review order"
+proposed,10,10,4,0.4,"rank ascending, then review order"
+proposed,20,20,8,0.4,"rank ascending, then review order"

@@ -1,0 +1,31 @@
+\chapter{LLM文脈抽出プロンプトの概要}
+
+本付録では、本研究で用いたLLM文脈抽出プロンプトの概要を示す。実際のプロンプトは、特許文書のTitle、Abstract、Claimsを入力し、候補ランキングに用いる文脈情報を構造化して出力することを目的とした。
+
+\section{入力}
+
+入力は、主に以下の特許文書情報で構成した。
+
+\begin{itemize}
+\item Title
+\item Abstract
+\item Claims
+\item 必要に応じて公開番号、ファミリーID、日付情報
+\end{itemize}
+
+\section{抽出項目}
+
+LLMには、本文中で定義した抽出項目を、短い説明文として整理するよう指示した。主な抽出項目は以下である。
+
+\begin{itemize}
+\item \texttt{problem\_context}: 発明が解こうとしている課題、目的、問題点
+\item \texttt{solution\_context}: 課題に対して提示される構成、方法、処理手順
+\item \texttt{technical\_means}: 具体的な技術手段、手法名、材料、構成要素
+\item \texttt{target\_object}: 技術が適用される対象物
+\item \texttt{application\_field}: 発明が用いられる応用分野や利用場面
+\item \texttt{effect\_context}: 発明によって得られる効果や改善点
+\end{itemize}
+
+\section{利用上の注意}
+
+LLM出力は、候補の妥当性を最終判定するためのものではなく、特許文書を人間が確認しやすい文脈情報に整理するための中間表現として用いた。したがって、抽出結果には誤抽出や過度な一般化が含まれる可能性があり、候補の最終的な確認はLLM支援付き著者確認評価として行った。

@@ -1,0 +1,91 @@
+﻿review_id,publication_number,candidate_type,source_file,source_row_index,rank,score,neighbor_rank,similarity_score,method_source,method_name,proposed_or_baseline
+BL0001,KR20220156282A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,37853,,,,,B0_contexts_random_seed_42,欠陥検出; 特徴抽出,baseline
+BL0002,US2024265141A1,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,43502,,,,,B0_contexts_random_seed_42,CNN; 画像セグメンテーション; 物体検出; 畳み込みニューラルネットワーク; 深層学習モデル,baseline
+BL0003,CN113762653B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,4746,,,,,B0_contexts_random_seed_42,画像生成・再構成,baseline
+BL0004,CN111426282B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,2114,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像生成・再構成,baseline
+BL0005,CN117079182B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,19841,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像分類; 特徴抽出; 画像生成・再構成; 畳み込みニューラルネットワーク,baseline
+BL0006,CN111127416A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,3743,,,,,B0_contexts_random_seed_42,UNet; 画像セグメンテーション; 欠陥検出; 画像分類; 特徴抽出,baseline
+BL0007,CN118967650A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,29320,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像生成・再構成,baseline
+BL0008,CN120107148A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,25413,,,,,B0_contexts_random_seed_42,support vector machine; 欠陥検出; 画像分類; 画像前処理; 撮像装置,baseline
+BL0009,IN201914036605A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,35039,,,,,B0_contexts_random_seed_42,畳み込みニューラルネットワーク; 深層学習モデル; 機械学習モデル,baseline
+BL0010,CN113421271A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,7385,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像分類; 画像前処理; 画像生成・再構成; 深層学習モデル,baseline
+BL0011,CN112884748A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,6820,,,,,B0_contexts_random_seed_42,support vector machine; 欠陥検出; 画像分類; 画像前処理,baseline
+BL0012,CN115294099B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,14066,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 欠陥検出,baseline
+BL0013,CN116740040B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,19076,,,,,B0_contexts_random_seed_42,欠陥検出; 畳み込みニューラルネットワーク; エンコーダ・デコーダ構造; 深層学習モデル,baseline
+BL0014,JP7271373B2,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,36006,,,,,B0_contexts_random_seed_42,撮像装置,baseline
+BL0015,CN118675084A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,26875,,,,,B0_contexts_random_seed_42,Autoencoder; CNN; 画像前処理; 画像生成・再構成; 畳み込みニューラルネットワーク,baseline
+BL0016,CN115375888A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,13417,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像生成・再構成; 深層学習モデル; 機械学習モデル; 撮像装置,baseline
+BL0017,KR20160087600A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,37264,,,,,B0_contexts_random_seed_42,検査装置; 画像処理システム,baseline
+BL0018,CN118552494A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,26654,,,,,B0_contexts_random_seed_42,Autoencoder; CNN; 画像前処理; 画像生成・再構成; 畳み込みニューラルネットワーク,baseline
+BL0019,CN117273664B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,22354,,,,,B0_contexts_random_seed_42,画像分類; 画像生成・再構成; 教師あり学習; 撮像装置,baseline
+BL0020,EP3971557B1,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,34169,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 物体検出; 画像分類; 深層学習モデル; 機械学習モデル,baseline
+BL0021,US2024185582A1,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,42780,,,,,B0_contexts_random_seed_42,k-means; 畳み込みニューラルネットワーク; エンコーダ・デコーダ構造; 深層学習モデル; 機械学習モデル,baseline
+BL0022,CN113256591A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,7578,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 欠陥検出; 画像前処理; 画像生成・再構成; 撮像装置,baseline
+BL0023,CN121391697A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,31725,,,,,B0_contexts_random_seed_42,U-Net; 画像セグメンテーション; 欠陥検出; 画像分類; 特徴抽出,baseline
+BL0024,CN121713211A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,33599,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 画像生成・再構成,baseline
+BL0025,CN112906816B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,6914,,,,,B0_contexts_random_seed_42,画像分類; 特徴抽出; 深層学習モデル,baseline
+BL0026,CN118051872B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,24589,,,,,B0_contexts_random_seed_42,Attention; 画像セグメンテーション; 特徴抽出; 画像前処理; 画像生成・再構成,baseline
+BL0027,CN114494256B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,11310,,,,,B0_contexts_random_seed_42,画像セグメンテーション; 欠陥検出,baseline
+BL0028,CN113658176B,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,8489,,,,,B0_contexts_random_seed_42,Attention; 欠陥検出; 画像分類; 特徴抽出; 画像前処理,baseline
+BL0029,CN118501137A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,26106,,,,,B0_contexts_random_seed_42,UNet; principal component analysis; 画像セグメンテーション; 画像生成・再構成; 畳み込みニューラルネットワーク,baseline
+BL0030,CN119313944A,true_random_baseline,pipeline/data/processed_full/B0_contexts.csv,29987,,,,,B0_contexts_random_seed_42,Attention; skip connection; 欠陥検出; 画像分類; 特徴抽出,baseline
+BL0031,CN117409016A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,241450,1,1.0000005960464478,1,1.0000005960464478,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 画像生成・再構成,baseline
+BL0032,CN118447306A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,265020,1,1.0000004768371582,1,1.0000004768371582,A0_to_B0_fulltext_topk_full,Autoencoder; 故障検出; 画像生成・再構成; 畳み込みニューラルネットワーク; エンコーダ・デコーダ構造,baseline
+BL0033,US2018189610A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,429920,1,1.0000004768371582,1,1.0000004768371582,A0_to_B0_fulltext_topk_full,画像分類; 機械学習モデル; 教師あり学習,baseline
+BL0034,US2020151719A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,435990,1,1.0000004768371582,1,1.0000004768371582,A0_to_B0_fulltext_topk_full,fulltext_top_baseline,baseline
+BL0035,AR132633A2,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,100,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,物体検出; 畳み込みニューラルネットワーク; 深層学習モデル,baseline
+BL0036,CN108460764B,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,31260,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 画像前処理,baseline
+BL0037,CN111445445A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,72890,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,特徴抽出; 画像生成・再構成; 畳み込みニューラルネットワーク; 深層学習モデル; 撮像装置,baseline
+BL0038,CN111724347A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,78520,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 画像分類; 特徴抽出; 画像生成・再構成; 深層学習モデル,baseline
+BL0039,CN116380832B,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,199340,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,欠陥検出; 非破壊検査; 画像前処理; 画像生成・再構成,baseline
+BL0040,EP3477553B1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,322240,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,Autoencoder; support vector machine; 画像生成・再構成; エンコーダ・デコーダ構造,baseline
+BL0041,EP4524882A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,344230,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 機械学習モデル,baseline
+BL0042,WO2020235461A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,371520,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,Attention; 画像セグメンテーション; 欠陥検出; 画像生成・再構成; 注意機構,baseline
+BL0043,WO2019084028A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,428940,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,画像分類; 画像前処理; 深層学習モデル; 機械学習モデル,baseline
+BL0044,US11429868B2,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,435580,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,Autoencoder; support vector machine; 画像生成・再構成; エンコーダ・デコーダ構造,baseline
+BL0045,US12178621B2,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,487660,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,CNN; 画像前処理; 画像生成・再構成; 畳み込みニューラルネットワーク; 深層学習モデル,baseline
+BL0046,US20240335130A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,498920,1,1.0000003576278689,1,1.0000003576278689,A0_to_B0_fulltext_topk_full,fulltext_top_baseline,baseline
+BL0047,CN109741292B,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,38530,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,Autoencoder; 画像生成・再構成; エンコーダ・デコーダ構造,baseline
+BL0048,CN113348485A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,100320,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,Attention; 画像セグメンテーション; 画像生成・再構成; 注意機構; 深層学習モデル,baseline
+BL0049,CN113379676B,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,112210,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,fulltext_top_baseline,baseline
+BL0050,CN117475344A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,166180,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,fulltext_top_baseline,baseline
+BL0051,CN116380832A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,199350,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,欠陥検出; 非破壊検査; 画像前処理; 画像生成・再構成,baseline
+BL0052,CN117218544A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,228400,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,Transformer; Attention; 画像前処理; 注意機構; 深層学習モデル,baseline
+BL0053,CN117237591A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,235890,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 画像前処理,baseline
+BL0054,CN118522451A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,266440,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,fulltext_top_baseline,baseline
+BL0055,CN118397365A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,266540,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,画像前処理; 画像生成・再構成,baseline
+BL0056,CN120154361A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,308200,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 画像生成・再構成; 深層学習モデル,baseline
+BL0057,CN119919581A,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,312840,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,非破壊検査; 特徴抽出; 画像前処理; 画像生成・再構成; 撮像装置,baseline
+BL0058,WO2022084223A1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,333870,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,畳み込みニューラルネットワーク; 深層学習モデル,baseline
+BL0059,KR102448338B1,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,388260,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,画像セグメンテーション; 教師あり学習; 教師なし学習,baseline
+BL0060,US12070362B2,fulltext_top_baseline,pipeline/data/processed_full/similarity/A0_to_B0_fulltext_topk_full.csv,473820,1,1.000000238418579,1,1.000000238418579,A0_to_B0_fulltext_topk_full,画像生成・再構成; 機械学習モデル; 撮像装置,baseline
+BL0061,WO2020137151A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,35947,1,,,,B0_technical_means_frequency_count=21771,欠陥検出,baseline
+BL0062,WO2026053448A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,37060,2,,,,B0_technical_means_frequency_count=15225,画像セグメンテーション,baseline
+BL0063,EP4659191A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34509,3,,,,B0_technical_means_frequency_count=14492,画像生成・再構成,baseline
+BL0064,WO2021131364A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,36171,4,,,,B0_technical_means_frequency_count=13472,画像前処理,baseline
+BL0065,MX2021007733A,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,39189,5,,,,B0_technical_means_frequency_count=13292,画像分類,baseline
+BL0066,WO2022130814A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,36426,6,,,,B0_technical_means_frequency_count=9448,特徴抽出,baseline
+BL0067,WO2023038187A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,37958,7,,,,B0_technical_means_frequency_count=8972,撮像装置,baseline
+BL0068,EP4592944A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34471,8,,,,B0_technical_means_frequency_count=8032,深層学習モデル,baseline
+BL0069,EP4123506A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34264,9,,,,B0_technical_means_frequency_count=5070,Attention,baseline
+BL0070,EP4599407A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34450,10,,,,B0_technical_means_frequency_count=3756,畳み込みニューラルネットワーク,baseline
+BL0071,EP3904868A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,33976,11,,,,B0_technical_means_frequency_count=3083,機械学習モデル,baseline
+BL0072,EP4024336A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34181,12,,,,B0_technical_means_frequency_count=2978,検査装置,baseline
+BL0073,WO2024160623A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34090,13,,,,B0_technical_means_frequency_count=2440,エンコーダ・デコーダ構造,baseline
+BL0074,EP4432167A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34477,14,,,,B0_technical_means_frequency_count=2206,注意機構,baseline
+BL0075,EP4227898A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34368,15,,,,B0_technical_means_frequency_count=1700,CNN,baseline
+BL0076,EP4596173A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34502,16,,,,B0_technical_means_frequency_count=1139,物体検出,baseline
+BL0077,WO2024175307A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34091,17,,,,B0_technical_means_frequency_count=1137,Autoencoder,baseline
+BL0078,MX2024011398A0,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,39207,18,,,,B0_technical_means_frequency_count=990,Transformer,baseline
+BL0079,WO2025199743A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,23710,19,,,,B0_technical_means_frequency_count=973,YOLO,baseline
+BL0080,EP3633682A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,33930,20,,,,B0_technical_means_frequency_count=903,ResNet,baseline
+BL0081,EP4150571B1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34192,21,,,,B0_technical_means_frequency_count=774,k-means,baseline
+BL0082,EP3477553A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,33825,22,,,,B0_technical_means_frequency_count=761,support vector machine,baseline
+BL0083,ID2021PID06201A,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34827,23,,,,B0_technical_means_frequency_count=707,教師あり学習,baseline
+BL0084,WO2024068203A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34085,24,,,,B0_technical_means_frequency_count=554,SVM,baseline
+BL0085,EP3940630A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34004,25,,,,B0_technical_means_frequency_count=547,principal component analysis,baseline
+BL0086,FR3126253A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34638,26,,,,B0_technical_means_frequency_count=524,U-Net,baseline
+BL0087,EP4668226A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,34486,27,,,,B0_technical_means_frequency_count=457,GAN,baseline
+BL0088,WO2025073026A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,147,28,,,,B0_technical_means_frequency_count=364,画像処理システム,baseline
+BL0089,WO2023070911A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,10051,29,,,,B0_technical_means_frequency_count=337,UNet,baseline
+BL0090,MA62359A1,frequency_top_baseline,pipeline/data/processed_full/B0_contexts.csv,39178,30,,,,B0_technical_means_frequency_count=311,故障検出,baseline

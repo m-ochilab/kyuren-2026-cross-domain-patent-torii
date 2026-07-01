@@ -1,0 +1,27 @@
+\begin{table}[tbp]
+\centering
+\caption{過去期間における具体的手法ランキング上位10件（公開公報単位）}
+\label{tab:experiment1_specific_methods_ranking}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{rlrrrrrr}
+\toprule
+順位 & 候補（具体的手法・アーキテクチャ名） & A側件数 & A側率 & B側件数 & B側率 & Gap（pt） & gap\_score \\
+\midrule
+1  & CNN                             & 1,212 & 12.44\% & 400 &  9.59\% & 2.84 & 0.002952 \\
+2  & \textbf{U-Net}                  & \textbf{151} & \textbf{1.55\%} & \textbf{1} & \textbf{0.02\%} & \textbf{1.53} & \textbf{0.000197} \\
+3  & k-means                         &   112 &  1.15\% &  21 &  0.50\% & 0.65 & 0.000062 \\
+4  & random forest                   &   155 &  1.59\% &  48 &  1.15\% & 0.44 & 0.000058 \\
+5  & principal component analysis    &   122 &  1.25\% &  42 &  1.01\% & 0.24 & 0.000026 \\
+6  & skip connection                 &    30 &  0.31\% &   1 &  0.02\% & 0.28 & 0.000007 \\
+7  & Transformer                     &    34 &  0.35\% &   5 &  0.12\% & 0.23 & 0.000007 \\
+8  & ResNet                          &    41 &  0.42\% &  11 &  0.26\% & 0.16 & 0.000006 \\
+9  & encoder-decoder                 &    25 &  0.26\% &   3 &  0.07\% & 0.18 & 0.000004 \\
+10 & GAN                             &    41 &  0.42\% &  15 &  0.36\% & 0.06 & 0.000002 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\begin{flushleft}
+\footnotesize
+全体ランキングから「画像セグメンテーション」「深層学習モデル」「機械学習モデル」等の広い技術カテゴリを除き，具体的なアルゴリズム名・アーキテクチャ名に限定して再集計。U-Net（2位）は太字で示す。
+\end{flushleft}
+\end{table}

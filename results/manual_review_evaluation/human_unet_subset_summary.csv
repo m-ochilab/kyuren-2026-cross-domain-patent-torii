@@ -1,0 +1,2 @@
+﻿subset,count,candidate_score_mean,candidate_score_median,valid_candidate_count_score_ge_2,valid_candidate_rate_score_ge_2,representative_flag_count,label_◎,label_○,label_△,label_×
+u_net_related,13,1.9230769230769231,2.0,7,0.5384615384615384,6,6,1,5,1

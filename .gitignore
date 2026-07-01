@@ -1,0 +1,65 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.dvi
+*.xdv
+
+# Large / local-only research data
+data_external/
+pipeline/cache/
+pipeline/data/processed_full/
+pipeline/data/processed_exports2/
+pipeline/data/processed_heterogeneous/
+pipeline/data/raw_exports2/
+pipeline/data/raw_heterogeneous/
+pipeline/data/raw_heterogeneous_normalized/
+pipeline/data/bundles/
+pipeline/outputs/embeddings/
+pipeline/outputs/heterogeneous_exports2/
+pipeline/outputs/heterogeneous_clusters/
+pipeline/outputs/experiment2_heterogeneous_bundle/
+pipeline/outputs/sotsuron_research_bundle_20260608/
+pipeline/outputs/llm_results/
+
+# Generated smoke-test outputs are reproducible
+pipeline/outputs/logs/
+pipeline/outputs/rankings/
+pipeline/outputs/figures/
+pipeline/outputs/tables/
+pipeline/data/processed/
+
+# Local backups
+*.bak
+*.bak2
+ziO9LT53
+zidbpZ44

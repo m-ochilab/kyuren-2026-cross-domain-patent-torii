@@ -1,0 +1,20 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{U-Net候補抽出に関する後ろ向き確認結果}
+\label{tab:experiment1_evaluation_summary_table}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+項目 & 値 & 解釈 \\
+\midrule
+U-Net 全体ランキング順位         & \textbf{7位}  & 過去期間の全候補ランキングで上位10件以内に抽出された \\
+U-Net 具体的手法ランキング順位     & \textbf{2位}  & 具体的アーキテクチャ名に限定したランキングで2位に抽出された \\
+A0過去U-Net出現件数            & 55件          & 医療画像解析分野の過去期間で確認された \\
+B0過去U-Net出現件数            & 0件           & 製造欠陥検出分野の過去期間では確認されなかった \\
+B0将来U-Net出現件数            & 314件         & 製造欠陥検出分野の将来期間で確認された \\
+評価の位置づけ                  & 後ろ向き評価 & 将来予測ではなく，既知の後年出現を用いた確認である \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

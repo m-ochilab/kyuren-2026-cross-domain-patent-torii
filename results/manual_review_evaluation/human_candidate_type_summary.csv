@@ -1,0 +1,5 @@
+﻿candidate_type,count,candidate_score_mean,candidate_score_median,valid_candidate_count_score_ge_2,valid_candidate_rate_score_ge_2,representative_flag_count,label_◎,label_○,label_△,label_×
+future_growth,10,1.1,1.0,3,0.3,3,2,1,3,4
+proposed_top,23,1.608695652173913,2.0,12,0.5217391304347826,9,5,7,8,3
+random_low_rank,10,2.2,2.0,8,0.8,6,4,4,2,0
+unet_related,10,1.8,1.5,5,0.5,4,4,1,4,1

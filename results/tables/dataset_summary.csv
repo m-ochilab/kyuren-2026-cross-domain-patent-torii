@@ -1,0 +1,5 @@
+domain,level,total_records,past_records,future_records,is_unet_total,is_unet_rate,is_unet_past,is_unet_future,has_text
+A0,publication,54100,10147,43953,1610,0.0298,55,1555,True
+A0,family,30093,4550,25543,1133,0.0376,33,1100,True
+B0,publication,44364,4307,40057,314,0.0071,0,314,True
+B0,family,28450,2231,26219,233,0.0082,0,233,True

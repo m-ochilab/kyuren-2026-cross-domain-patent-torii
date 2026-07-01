@@ -1,0 +1,19 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{実験1ベースライン比較}
+\label{tab:experiment1\_baseline\_comparison}
+\begin{tabular}{llllllll}
+\toprule
+候補タイプ & 件数 & 平均スコア & 妥当性率 & 強い & 妥当 & 弱い & 不適切 \\
+\midrule
+frequency\_top\_baseline & 30 & 2.27 & 0.767 & 17 & 6 & 5 & 2 \\
+fulltext\_low\_rank\_baseline & 10 & 2.20 & 0.800 & 4 & 4 & 2 & 0 \\
+fulltext\_top\_baseline & 30 & 0.567 & 0.167 & 1 & 4 & 6 & 19 \\
+future\_growth & 10 & 1.10 & 0.300 & 2 & 1 & 3 & 4 \\
+proposed\_top & 23 & 1.61 & 0.522 & 5 & 7 & 8 & 3 \\
+true\_random\_baseline & 30 & 2.07 & 0.667 & 16 & 4 & 6 & 4 \\
+unet\_related & 10 & 1.80 & 0.500 & 4 & 1 & 4 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

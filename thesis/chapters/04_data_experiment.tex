@@ -1,0 +1,86 @@
+\chapter{データと実験設計}
+\chapoverview{本章では，本研究で用いる特許データと実験設計を説明する．まず，Orbis IPから取得するデータ項目を整理する．次に，医療画像解析と製造欠陥検出の4つのデータセットを定義する．さらに，U-Net関連特許の抽出方法，Publication numberベースとFamily IDベースの集計方法，代表特許の目視確認方法を述べる．}
+
+\section{使用データ}
+本研究では，Orbis IPから2015--2024年の特許データを取得する．主な分析対象は，医療画像解析分野と製造欠陥検出分野である．分析用テキストは，原則としてTitle，Abstract，Claimsを結合して作成する．Claimsが取得できない場合は，TitleとAbstractを用いる．
+
+特許識別情報としては，Publication number，Application number，Family Identifierを用いる．日付情報としては，Filing dateを主な時系列指標として用いる．また，Publication dateとPriority dateは補助的に確認する．分類情報としては，CPC codeおよびIPC codeを用いる．
+
+\section{データセット定義}
+本研究では，\tabref{tab:dataset_definition}に示す4つのデータセットを用いる．
+
+\begin{table}[htbp]
+  \centering
+  \caption{U-Net主ケースで用いるデータセット}
+  \label{tab:dataset_definition}
+  \begin{tabularx}{\textwidth}{p{20mm}X r r X}
+    \toprule
+    ラベル & 内容 & Publication数 & Family ID数 & 役割 \\
+    \midrule
+    A0 & 医療画像解析全体 & 15,167 & 8,513 & 参照分野の母集団 \\
+    A1 & 医療画像解析 $\times$ U-Net & 804 & 577 & 参照分野のU-Net関連集合 \\
+    B0 & 製造欠陥検出全体 & 12,212 & 8,898 & 対象分野の母集団 \\
+    B1 & 製造欠陥検出 $\times$ U-Net & 72 & 49 & 対象分野のU-Net関連集合 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\figref{fig:dataset_overview}に，各データセットのPublication数を示す．A0とB0は各分野の母集団であり，A1とB1はU-Net関連特許の集合である．
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.78\textwidth]{fig07_dataset_overview.png}
+  \caption{データセット別Publication数}
+  \label{fig:dataset_overview}
+\end{figure}
+
+\section{U-Net関連特許の抽出}
+U-Net関連特許は，TitleまたはAbstractに以下の表記を含むものとして抽出する．
+
+\begin{itemize}
+  \item U-Net
+  \item UNet
+  \item U Net
+\end{itemize}
+
+本研究では，これらの語の出現を初期抽出条件として用いる．ただし，語の一致だけでは，U-Netが実際に技術的手段として用いられているかは判断できない．そのため，A1およびB1から代表特許を抽出し，Title，Abstract，Claimsを目視確認する．
+
+\section{出現率の定義}
+分野$X$におけるU-Net出現率$r_X$は，\eqnref{eq:unet_rate}で定義する．
+
+\begin{equation}
+  r_X = \frac{N_X^{U\text{-}Net}}{N_X^{All}} \times 100
+  \label{eq:unet_rate}
+\end{equation}
+
+ここで，$N_X^{U\text{-}Net}$は分野$X$におけるU-Net関連特許数，$N_X^{All}$は分野$X$の全特許数を表す．本研究では，Publication numberベースとFamily IDベースの両方で出現率を計算する．Family IDベースの確認は，同一発明の複数国出願による重複の影響を抑えるために行う．
+
+\section{実験設計}
+本研究の実験は，3つの研究課題に対応して設計する．
+
+\begin{table}[htbp]
+  \centering
+  \caption{研究課題と評価方法の対応}
+  \label{tab:rq_eval}
+  \begin{tabularx}{\textwidth}{p{18mm}X X}
+    \toprule
+    RQ & 内容 & 評価方法 \\
+    \midrule
+    RQ1 & 課題文脈と解決手段文脈を分離することで，異分野技術候補の抽出理由を説明可能にできるか & 抽出項目の人手確認，代表特許のTitle/Abstract/Claims確認 \\
+    RQ2 & 過去期間において，U-Netを対象分野で低出現の候補として抽出できるか & 2015--2018年のA0/A1/B0/B1における出現率比較 \\
+    RQ3 & 抽出候補が将来期間における対象分野での出現・増加と対応するか & 2019--2024年のB1出現件数・出現率の確認 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{代表特許の目視確認}
+代表特許の目視確認では，以下の観点を確認する．
+
+\begin{enumerate}
+  \item U-Netが単なる語として出現しているだけでなく，画像分割や欠陥検出の技術的手段として使われているか．
+  \item 対象物が医療画像，製造物画像，鋼材表面，管路，金属表面などとして確認できるか．
+  \item 課題文脈と解決手段文脈が対応しているか．
+  \item 代表特許として本文で説明可能か．
+\end{enumerate}
+
+判定は，◎，○，△，×の4段階で行う．本研究では，完全な技術導入可能性を評価するのではなく，専門家確認候補として解釈可能かを確認する．
